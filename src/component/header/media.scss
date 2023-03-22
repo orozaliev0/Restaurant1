@@ -1,0 +1,98 @@
+@media  (max-width: 1024px){
+  .header-title input {
+    width: 123px;
+  }
+}
+@media  (max-width: 768px){
+  .header-title {
+    display: none;
+  }
+  .header-select{
+    display: none;
+  }
+  .Menu{
+    display: block;
+  }
+  .heroo .heroo-nav h2 {
+    font-size: 55px;
+  }
+  .heroo .heroo-nav p {
+    padding: 20px 0;
+    font-size: 13px;
+  }
+}
+@media  (max-width: 576px){
+  .hero-bottom {
+    flex-wrap: wrap;
+  }
+  .hero-bottom .hero-bottom-left {
+    margin: 10px 0;
+  }
+  .heroo .heroo-nav h2 {
+    font-size: 50px;
+  }
+  .heroo .heroo-nav p {
+    padding: 13px 0;
+    font-size: 11px;
+  }
+  .heroo h1 {
+    font-size: 46px;
+  }
+
+}
+@media  (max-width: 451px){
+  .hero-bottom .hero-bottom-left .hero-location {
+    font-size: 15px;
+  }
+  .hero-bottom .hero-bottom-right .hero-phone {
+    font-size: 15px;
+  }
+}
+@media  (max-width: 400px){
+  .heroo .heroo-nav h2 {
+    font-size: 40px;
+  }
+  .heroo .heroo-nav p {
+     padding: 9px 0;
+     font-size: 9px;
+   }
+  .heroo h1 {
+    font-size: 40px;
+  }
+
+
+}
+@media  (max-width: 320px){
+  .heroo h1 {
+    font-size: 33px;
+  }
+  .heroo .heroo-nav h2 {
+    font-size: 30px;
+  }
+  .heroo .heroo-nav p {
+    padding: 3px 0;
+    font-size: 7px;
+  }
+  .heroo .heroo-nav h6 {
+    line-height: 13px;
+  }
+  .hero .hero-hr1 {
+    width: 154px;
+    left: -72px;
+    bottom: 128px;
+  }
+  .hero .hero-hr2 {
+    width: 80%;
+  }
+  .hero-bottom .hero-bottom-left h6 {
+    font-size: 7px;
+  }
+  .hero-bottom .hero-bottom-right h6 {
+    font-size: 9px;
+  }
+  .hero-bottom {
+    padding: 56px 0;
+  }
+
+
+}
