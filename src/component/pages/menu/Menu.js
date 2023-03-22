@@ -27,7 +27,6 @@ const Menu = () => {
 
         <div className='menu'>
 
-
             <Tabs>
                 <TabList>
                     <Tab>
