@@ -17,13 +17,13 @@ import pageImg5 from "../../../image/pageImg5.png";
 import pageImg6 from "../../../image/pageImg6.png";
 import drinks from "../../../image/italian-hot-drinks.webp";
 import x from "../../../image/x.svg"
-
+import "./DetailPage.scss"
 
 const DetailPage = () => {
 
     return (
-        <div>
-        <div className='menu'>
+
+        <div className='menu' >
 
             <img src={x} alt="" className='menu--svg'/>
 
@@ -110,23 +110,25 @@ const DetailPage = () => {
                         <div style={{
                             display: "flex"
                         }}>
-                            <div className='panel-page__img'>
-                                <img src={pageImg5} alt=""/>
-                                <h2>Ice Cream
-                                    <span>$24</span>
-                                </h2>
-                                <p>soda,cream,milk,sugar</p>
-                            </div>
 
-                            <div className='panel-page__img'>
-                                <img src={pageImg6} alt=""/>
-                                <h2>Ice Cream
-                                    <span>$24</span>
-                                </h2>
-                                <p>soda,cream,milk,sugar</p>
-                            </div>
+                              <div className='panel-page__img'>
+                                  <img src={pageImg5} alt=""/>
+                                  <h2>Ice Cream
+                                      <span>$24</span>
+                                  </h2>
+                                  <p>soda,cream,milk,sugar</p>
+                              </div>
 
-                        </div>
+                              <div className='panel-page__img'>
+                                  <img src={pageImg6} alt=""/>
+                                  <h2>Ice Cream
+                                      <span>$24</span>
+                                  </h2>
+                                  <p>soda,cream,milk,sugar</p>
+                              </div>
+                          </div>
+
+
                     </div>
 
                 </TabPanel>
@@ -326,7 +328,7 @@ const DetailPage = () => {
 
             </Tabs>
 
-            <h1>drftgyhujiok</h1>
+
         </div>
 
     );

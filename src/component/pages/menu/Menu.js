@@ -26,8 +26,6 @@ const Menu = () => {
     return (
 
         <div className='menu'>
-
-
             <Tabs>
                 <TabList>
                     <Tab>
@@ -61,7 +59,6 @@ const Menu = () => {
 
                         <div style={{
                             display: "flex",
-                            // alignItems: "center"
                         }}>
                             <div className='panel-page__img'>
                                 <NavLink to={"/menu/detail-page"}>
@@ -323,11 +320,6 @@ const Menu = () => {
                 </TabPanel>
 
             </Tabs>
-
-
-            {/*<Main/>*/}
-
-            <h1>rtyu    </h1>
         </div>
 
     );

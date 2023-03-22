@@ -25,9 +25,7 @@ const Footer = () => {
                 <center>c 2023 Motion Study LLC</center>
             </div>
         </section>
-        <div>
 
-        </div>
     );
 };
 

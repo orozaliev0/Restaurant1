@@ -13,10 +13,7 @@
   flex-direction: column;
   width: 270px;
   margin: 40px;
-  //margin: 0px;
-  //padding: 0;
   color: white;
-  //font-size: 16px;
   background: #262d3a;
 
 }
@@ -49,10 +46,7 @@
 
 
 .panel-page {
-  //display: flex;
-  //justify-content: space-between;
-  //flex-wrap: wrap;
-  //align-items: center;
+
   margin-left: 160px;
   margin-top: 150px;
 
@@ -91,4 +85,9 @@
   }
 
 
+}
+
+.menu{
+  margin-top: 70px;
+  padding-bottom: 150px;
 }
