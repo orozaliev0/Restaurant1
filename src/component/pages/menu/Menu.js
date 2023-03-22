@@ -325,9 +325,7 @@ const Menu = () => {
             </Tabs>
 
 
-            {/*<Main/>*/}
 
-            <h1>rtyu    </h1>
         </div>
 
     );
