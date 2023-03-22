@@ -1,0 +1,48 @@
+@media (max-width: 1140px) {
+
+}
+@media (max-width: 1024px) {
+
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+  #contact .contact {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0;
+  }
+  #contact .contact__maps {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 576px) {
+  #contact .contact__maps {
+    padding: 0;
+  }
+  #contact .contact__maps {
+    line-height: 30px;
+  }
+}
+@media (max-width: 450px) {
+
+}
+@media (max-width: 414px) {
+
+}
+@media (max-width: 400px) {
+
+}
+@media (max-width: 380px) {
+
+}
+@media (max-width: 375px) {
+
+}
+@media (max-width: 360px) {
+
+}
+@media (max-width: 320px) {
+
+}
