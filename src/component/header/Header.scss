@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital@1&display=swap');
+
+#header{
+  position: fixed;
+  width: 100%;
+  background: #1B2026;
+  padding: 20px 0;
+  top: 0;
+  z-index: 99;
+  backdrop-filter: blur(3px);
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header h1{
+  font-weight: 600;
+  font-size: 28px;
+  color: #FFFFFF;
+  font-family: 'Lora', serif;
+}
+
+.header a{
+  text-decoration: none;
+  margin: 0 30px;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+.header-select select{
+  outline: none;
+  padding: 7px 10px;
+  background: transparent;
+  border: none;
+  color: #FFFFFF;
+  list-style: none;   
+}
+
+.header-select select option{
+  background: #1B2026;
+  outline: none;
+  border: none;
+  list-style: none;
+}
+
+.header-title input{
+  width: 160px;
+  height: 37px;
+  background: #EF272C;
+  opacity: 0.8;
+  border: 0.8px solid rgba(86, 9, 187, 0.2);
+  border-radius: 8px;
+  color: #FFFFFF;
+  outline: none;
+}
+
+.header-title input::placeholder{
+  padding-left: 10px;
+  color: #FFFFFF;
+}
+
+.header-select{
+  border-radius: 10px;
+  border: none;
+  margin-right:100px;
+}
+.header-title{
+  display: flex;
+  align-items: center;
+
+}
+
+.Menu{
+  display: none;
+}
+
+.burger{
+  position: absolute;
+  top: 77px;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 200px;
+  height: 200px;
+  background: #1B2026;
+}
+.burger a{
+  display: flex;
+  color: #FFFFFF;
+  margin: 20px 20px;
+}
+
+.burger-input{
+  width: 100px;
+  height: 17px;
+  background: red;
+  outline: none;
+  border: none;
+  margin: 0 10px;
+  border-radius: 10px;
+  color: white;
+}
+.burger-input::placeholder{
+  color: white;
+  padding: 0 10px;
+}
+
+.header .menu-icon{
+  font-size: 30px;
+  color: white;
+}
+
+.input{
+  position: relative;
+  input{
+    padding-left: 25px;
+  }
+  .icon{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: #FFFFFF;
+  }
+}
+
