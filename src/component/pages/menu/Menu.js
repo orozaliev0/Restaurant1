@@ -27,7 +27,6 @@ const Menu = () => {
 
         <div className='menu'>
 
-
             <Tabs>
                 <TabList>
                     <Tab>
@@ -325,9 +324,6 @@ const Menu = () => {
             </Tabs>
 
 
-            {/*<Main/>*/}
-
-            <h1>rtyu    </h1>
         </div>
 
     );

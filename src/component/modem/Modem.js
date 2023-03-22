@@ -56,7 +56,7 @@ const Modem = () => {
                     <img src={Vector} alt=""/>
                     <img src={Line} alt=""/>
                 </div>
-                <h2>modern interior</h2>
+                <h2>Modern interior</h2>
                 <div className='modern__vector'>
                     <img src={Vector1} alt=""/>
                     <img src={Line} alt=""/>

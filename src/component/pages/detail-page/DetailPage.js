@@ -22,7 +22,7 @@ import x from "../../../image/x.svg"
 const DetailPage = () => {
 
     return (
-        <div>
+
         <div className='menu'>
 
             <img src={x} alt="" className='menu--svg'/>
@@ -326,7 +326,6 @@ const DetailPage = () => {
 
             </Tabs>
 
-            <h1>drftgyhujiok</h1>
         </div>
 
     );
