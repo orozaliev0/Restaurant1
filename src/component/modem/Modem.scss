@@ -1,0 +1,51 @@
+
+.container{
+
+
+  .modern {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+
+    h2 {
+      font-family: 'Shalimar', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 40px;
+      color: #FFFFFF;
+      padding: 10px 10px;
+    }
+
+    &__vector {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+
+  }
+
+
+
+  .block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 42px;
+
+    img {
+      width: 272px;
+      padding: 0 7px;
+    }
+  }
+  .img{
+    width: 495px;
+    height: 244px;
+    padding-bottom: 10px;
+  }
+
+
+
+
+}
