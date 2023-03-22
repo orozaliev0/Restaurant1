@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Fira+Sans:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600;1,700&family=Inter:wght@300;400;500;600;700;800;900&family=League+Spartan:wght@400;500;600;700;800&family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,900&family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Fira+Sans:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600;1,700&family=Inter:wght@300;400;500;600;700;800;900&family=League+Spartan:wght@600;700;800&family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,900&family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+
+#bestSeller{
+  margin: 50px 0;
+  .best{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 104%;
+    &--title{
+      &__first{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 60%;
+        h1{
+          font-family: Shalimar,sans-serif;
+          font-weight: 400;
+          font-size: 40px;
+          line-height: 49px;
+          color: #FFFFFF;
+        }
+      }
+      &__info{
+        h1{
+          color: #FFFFFF;
+          margin: 30px 0;
+          font-weight: 600;
+          font-size: 40px;
+          line-height: 61px;
+          font-family: 'DM Serif Text', serif;
+        }
+        p{
+          color: #FFFFFF;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          font-family: 'League Spartan', sans-serif;
+        }
+      }
+
+    }
+    &-slide{
+      width: 50%;
+      .slick-slider{
+          width: 100%;
+        button{
+        }
+      }
+      }
+    }
+    .slick-next {
+      right: 20px;
+    }
+  }
+
+
+
