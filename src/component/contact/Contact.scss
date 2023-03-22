@@ -1,0 +1,89 @@
+#contact {
+  background: #1B2026;
+
+  .contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 0;
+
+    &__maps {
+      background: #EF272C;
+      padding: 30px 50px;
+      line-height: 50px;
+      a{
+        color: #1F2731;;
+        padding: 0 10px;
+        font-size: 20px;
+        text-decoration: none;
+      }
+      iframe{
+        width: 100%;
+        height: 50vh;
+      }
+    }
+
+    &--text {
+      h1 {
+        font-family: 'Silk Serif', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 61px;
+        color: #FFFFFF;
+      }
+
+      p {
+        font-family: 'Spartan', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 24px;
+        color: #EF272C;
+        padding-top: 30px;
+      }
+
+      h3 {
+        font-family: 'Spartan', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+        padding-top: 15px;
+      }
+
+      &__btn {
+        font-family: 'Spartan', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 13px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        border: 2px solid #EF272C;
+        background: transparent;
+        padding: 5px 10px;
+        cursor: pointer;
+        margin-top: 30px;
+      }
+
+      &__visit {
+        display: flex;
+
+        img {
+          padding-right: 30px;
+        }
+
+        h2 {
+          font-family: 'Shalimar', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 40px;
+          line-height: 49px;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+}
