@@ -1,5 +1,5 @@
 import React from 'react';
-import "./DetailPage.scss"
+import "./Menu.scss"
 import {Tab, TabList, TabPanel, Tabs} from "react-tabs";
 import Hot_Drinks from "../../../image/Hot Drinks.jpg";
 import cuisine from "../../../image/italian-cuisine.jpg";
@@ -11,21 +11,21 @@ import pizza from "../../../image/Pizza.webp";
 import Fast_foods from "../../../image/Fast foods.jpg";
 import Fast_foods2 from "../../../image/Fast foods.2jpg.jpg";
 import pageImg1 from "../../../image/pageImg1.png";
+import pageImg2 from "../../../image/pageImg2.png";
 import pageImg3 from "../../../image/pageImg3.png";
 import pageImg4 from "../../../image/pageImg4.png";
 import pageImg5 from "../../../image/pageImg5.png";
 import pageImg6 from "../../../image/pageImg6.png";
 import drinks from "../../../image/italian-hot-drinks.webp";
-import x from "../../../image/x.svg"
+import {NavLink} from "react-router-dom";
 
 
-const DetailPage = () => {
+
+const Menu = () => {
 
     return (
-        <div>
-        <div className='menu'>
 
-            <img src={x} alt="" className='menu--svg'/>
+        <div className='menu'>
 
 
             <Tabs>
@@ -61,29 +61,27 @@ const DetailPage = () => {
 
                         <div style={{
                             display: "flex",
-                            marginTop: '330px'
+                            // alignItems: "center"
                         }}>
-                            <div className='panel-page__img2'>
-                                <img src={pageImg1} alt=""/>
-                                <h2 style={{color: "white"}}>Ice Cream <span>$24</span></h2>
+                            <div className='panel-page__img'>
+                                <NavLink to={"/menu/detail-page"}>
+                                    <img src={pageImg1} alt=""/>
+                                </NavLink>
+                                <h2>Ice Cream <span>$24</span></h2>
                                 <p>soda,cream,milk,sugar</p>
                             </div>
 
 
-                            <div className='panel-page__img2'>
-                                {/*<img src={pageImg2} alt=""/>*/}
-                                <h2 style={{color: "white", marginBottom: '10px', paddingTop: "5px"}}>Extras</h2>
-                                <p style={{marginBottom: "5px"}}>Cherry <span>$24</span></p>
-                                <p style={{paddingBottom: "5px"}}>Cherry <span>$24</span></p>
-                                <h2 style={{color: "white", marginBottom: '10px'}}>Drinks</h2>
-                                <p style={{marginBottom: "5px"}}>Coca Cola <span>$24</span></p>
-                                <p>Coca Cola <span>$24</span></p>
+                            <div className='panel-page__img'>
+                                <img src={pageImg2} alt=""/>
+                                <h2>Ice Cream
+                                    <span>$24</span>
+                                </h2>
+                                <p>soda,cream,milk,sugar</p>
                             </div>
 
                         </div>
 
-
-                        <h1 className='panel-page__title'>Similar gueries</h1>
 
                         <div style={{
                             display: "flex"
@@ -326,10 +324,13 @@ const DetailPage = () => {
 
             </Tabs>
 
-            <h1>drftgyhujiok</h1>
+
+            {/*<Main/>*/}
+
+            <h1>rtyu    </h1>
         </div>
 
     );
 };
 
-export default DetailPage;
+export default Menu;

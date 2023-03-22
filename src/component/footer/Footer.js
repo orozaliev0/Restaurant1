@@ -5,6 +5,7 @@ import "./Footer.scss"
 const Footer = () => {
     return (
         <div>
+
         </div>
     );
 };

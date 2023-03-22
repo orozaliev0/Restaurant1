@@ -1,0 +1,153 @@
+#main {
+
+  .block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+      font-family: 'Shalimar', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 40px;
+      color: #FFFFFF;
+      padding: 10px 10px;
+    }
+
+    &__vector {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+
+  h3 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+  }
+
+  .main_block {
+
+    .react-tabs {
+      display: flex;
+      align-items: center;
+      margin-left: 260px;
+      height: 500px;
+      outline: none;
+
+    }
+
+    .react-tabs__tab-list {
+      font-family: 'Inter', sans-serif;
+      font-weight: 800;
+      flex-direction: column;
+      width: 270px;
+      margin: 0;
+      padding: 0;
+      color: white;
+      font-size: 16px;
+      background: #262d3a;
+    }
+
+    .react-tabs__tab {
+      height: 10px;
+      list-style: none;
+      padding: 25px 6px;
+      cursor: pointer;
+      div{
+        border-bottom: 1px solid white;
+        width: 100px;
+        margin: 0 auto;
+      }
+    }
+
+    .react-tabs__tab--selected {
+      transition: .3s;
+      background: #810000;
+      border: none;
+      outline: none;
+      color: white;
+    }
+
+    .react-tabs__tab {
+      text-align: center;
+    }
+
+
+    .panel-content {
+      margin-left: 140px;
+      margin-top: 150px;
+
+      img {
+        width: 500px;
+      }
+
+      h2{
+        font-family: 'Inter', sans-serif;
+        font-size: 17px;
+        color: #FFFFFF;
+        margin-bottom: 10px;
+
+
+        span{
+          color: red;
+          font-family: 'Inter', sans-serif;
+          font-size: 15px;
+
+        }
+      }
+
+      p {
+        font-family: 'Spartan',sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        color: #a4a3a3;
+      }
+
+      h4{
+        font-family: 'Spartan',sans-serif;
+        font-weight: 100;
+        font-size: 10px;
+        color: #FFFFFF;
+        margin-left: 350px;
+        width: 80px ;
+        padding: 10px 0;
+        text-align: center;
+        border-bottom: 1px solid white;
+        margin-bottom: 10px;
+      }
+    }
+
+    &__arrow {
+      margin: 10px 715px;
+      width: 70px;
+      height: 2px;
+      background: red;
+    }
+    &__btn{
+      margin-top: 100px;
+      button {
+        //margin-top: 100px;
+        display: flex;
+        align-items: center;
+        margin-left: 670px;
+        background: transparent;
+        text-align: center;
+        padding: 10px 20px;
+        border: 1px solid red;
+        color: white;
+        cursor: pointer;
+        .arrowR{
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+
+}
+
