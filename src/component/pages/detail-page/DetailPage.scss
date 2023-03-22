@@ -4,50 +4,51 @@
   margin-left: 160px;
   height: 500px;
   outline: none;
-  margin-bottom: 200px;
+  //margin-bottom: 300px;
 }
 
 .react-tabs__tab-list {
-  font-family: 'Inter', sans-serif;
-  font-weight: 800;
-  flex-direction: column;
-  width: 270px;
-  margin: 40px;
-  color: white;
-  background: #262d3a;
+  //font-family: 'Inter', sans-serif;
+  //font-weight: 800;
+  //flex-direction: column;
+  //width: 270px;
+  //margin: 40px;
+  //color: white;
+  //background: #262d3a;
 
 }
 
 .react-tabs__tab {
-  height: 10px;
-  list-style: none;
-  padding: 25px 6px;
-  cursor: pointer;
+  //height: 10px;
+  //list-style: none;
+  //padding: 25px 6px;
+  //cursor: pointer;
 
   div{
-    border-bottom: 1px solid white;
-    width: 100px;
-    margin: 0 auto;
+    //border-bottom: 1px solid white;
+    //width: 100px;
+    //margin: 0 auto;
   }
 }
 
 .react-tabs__tab--selected {
-  transition: .3s;
-  background: #810000;
-  border: none;
-  outline: none;
-  color: white;
+  //transition: .3s;
+  //background: #810000;
+  //border: none;
+  //outline: none;
+  //color: white;
 
 }
 
 .react-tabs__tab {
-  text-align: center;
+  //text-align: center;
 }
 
 
 .panel-page {
-  margin-left: 160px;
-  margin-top: 150px;
+  //margin-left: 160px;
+  //margin-top: 150px;
+  //margin-bottom: 500px;
 
   &__title{
     font-family: 'Spartan',sans-serif;
@@ -58,8 +59,8 @@
   }
 
   &__img {
-    background: white;
-    margin: 7px 5px;
+    //background: white;
+    //margin: 7px 5px;
   }
   &__img2 {
     background: #27303b;
@@ -95,9 +96,14 @@
 
 }
 
+.menu{
+  //height: 100vh;
+  //margin: 100px 0;
+  padding-bottom: 200px;
+}
+
 .menu--svg {
   position: absolute;
-  top: 50px;
+  top: 90px;
   left: 30px;
-
 }

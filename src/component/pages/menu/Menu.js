@@ -60,7 +60,6 @@ const Menu = () => {
 
                         <div style={{
                             display: "flex",
-                            // alignItems: "center"
                         }}>
                             <div className='panel-page__img'>
                                 <NavLink to={"/menu/detail-page"}>
