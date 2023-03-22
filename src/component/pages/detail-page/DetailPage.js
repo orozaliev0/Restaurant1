@@ -4,7 +4,6 @@ import "./DetailPage.scss"
 const DetailPage = () => {
     return (
         <div>
-
         </div>
     );
 };
