@@ -10,9 +10,8 @@ import cuisine from "../../image/italian-cuisine.jpg"
 import Cold_Drinks from "../../image/Cold Drinks.webp"
 import National_Foods from "../../image/National Foods.jpg"
 import Fast_foods from "../../image/Fast foods.jpg"
-import { useNavigate } from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 import line14 from "../../image/Line.svg"
-
 
 
 const Main = () => {
@@ -71,41 +70,51 @@ const Main = () => {
                     <TabPanel>
                         <div className="panel-content">
 
-                            <h2>Beer Brewery
-                                .................................................................... <span>$24</span>
-                            </h2>
+                            <div className='panel-content__block'>
+                                <h2>Beer Brewery</h2>
+                                <div></div>
+                                <span>$24</span>
+                            </div>
                             <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
                                 pultvätta, om pneumativ.</p>
                             <h4>Order Now</h4>
 
 
-                            <h2>Beer Brewery
-                                .................................................................... <span>$24</span>
-                            </h2>
+                            <div className='panel-content__block'>
+                                <h2>Beer Brewery</h2>
+                                <div></div>
+                                <span>$24</span>
+                            </div>
                             <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
                                 pultvätta, om pneumativ.</p>
                             <h4>Order Now</h4>
 
 
-                            <h2>Beer Brewery
-                                .................................................................... <span>$24</span>
-                            </h2>
+                            <div className='panel-content__block'>
+                                <h2>Beer Brewery</h2>
+                                <div></div>
+                                <span>$24</span>
+                            </div>
                             <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
                                 pultvätta, om pneumativ.</p>
                             <h4>Order Now</h4>
 
 
-                            <h2>Beer Brewery
-                                .................................................................... <span>$24</span>
-                            </h2>
+                            <div className='panel-content__block'>
+                                <h2>Beer Brewery</h2>
+                                <div></div>
+                                <span>$24</span>
+                            </div>
                             <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
                                 pultvätta, om pneumativ.</p>
                             <h4>Order Now</h4>
 
 
-                            <h2>Beer Brewery
-                                .................................................................... <span>$24</span>
-                            </h2>
+                            <div className='panel-content__block'>
+                                <h2>Beer Brewery</h2>
+                                <div></div>
+                                <span>$24</span>
+                            </div>
                             <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
                                 pultvätta, om pneumativ.</p>
                             <h4>Order Now</h4>
@@ -116,174 +125,159 @@ const Main = () => {
                     <TabPanel>
                         <div className="panel-content">
 
-                            <h2>Hot Drinks
-                                .................................................................... <span>$24</span>
-                            </h2>
+                            <div className='panel-content__block'>
+                                <h2>Hoot Brewery</h2>
+                                <div></div>
+                                <span>824</span>
+                            </div>
                             <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
                                 pultvätta, om pneumativ.</p>
                             <h4>Order Now</h4>
 
 
-                            <h2>Hot Drinks
-                                .................................................................... <span>$24</span>
-                            </h2>
+                            <div className='panel-content__block'>
+                                <h2>Hoot Brewery</h2>
+                                <div></div>
+                                <span>824</span>
+                            </div>
                             <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
                                 pultvätta, om pneumativ.</p>
                             <h4>Order Now</h4>
 
 
-                            <h2>Hot Drinks
-                                .................................................................... <span>$24</span>
-                            </h2>
+                            <div className='panel-content__block'>
+                                <h2>Hoot Brewery</h2>
+                                <div></div>
+                                <span>824</span>
+                            </div>
                             <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
                                 pultvätta, om pneumativ.</p>
                             <h4>Order Now</h4>
 
 
-                            <h2>Hot Drinks
-                                .................................................................... <span>$24</span>
-                            </h2>
+                            <div className='panel-content__block'>
+                                <h2>Hoot Brewery</h2>
+                                <div></div>
+                                <span>824</span>
+                            </div>
                             <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
                                 pultvätta, om pneumativ.</p>
                             <h4>Order Now</h4>
 
 
-                            <h2>Hot Drinks
-                                .................................................................... <span>$24</span>
-                            </h2>
+                            <div className='panel-content__block'>
+                                <h2>Hoot Brewery</h2>
+                                <div></div>
+                                <span>824</span>
+                            </div>
                             <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
                                 pultvätta, om pneumativ.</p>
                             <h4>Order Now</h4>
+
 
                         </div>
                     </TabPanel>
                     <TabPanel>
                         <div className="panel-content">
-                            <h2>Cold Drinks
-
-                                .................................................................... <span>$24</span>
-                            </h2>
+                            <div className='panel-content__block'>
+                                <h2>Cold Brewery</h2>
+                                <div></div>
+                                <span>824</span>
+                                </div>
                             <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
                                 pultvätta, om pneumativ.</p>
                             <h4>Order Now</h4>
 
 
-                            <h2>Cold Drinks
-
-                                .................................................................... <span>$24</span>
-                            </h2>
+                            <div className='panel-content__block'>
+                                <h2>Cold Brewery</h2>
+                                <div></div>
+                                <span>824</span>
+                            </div>
                             <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
                                 pultvätta, om pneumativ.</p>
                             <h4>Order Now</h4>
 
 
-                            <h2>Cold Drinks
-                                .................................................................... <span>$24</span>
-                            </h2>
+                            <div className='panel-content__block'>
+                                <h2>Cold Brewery</h2>
+                                <div></div>
+                                <span>824</span>
+                            </div>
                             <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
                                 pultvätta, om pneumativ.</p>
                             <h4>Order Now</h4>
 
 
-                            <h2>Cold Drinks
-                                .................................................................... <span>$24</span>
-                            </h2>
+                            <div className='panel-content__block'>
+                                <h2>Cold Brewery</h2>
+                                <div></div>
+                                <span>824</span>
+                            </div>
                             <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
                                 pultvätta, om pneumativ.</p>
                             <h4>Order Now</h4>
 
 
-                            <h2>Cold Drinks
-                                .................................................................... <span>$24</span>
-                            </h2>
+                            <div className='panel-content__block'>
+                                <h2>Cold Brewery</h2>
+                                <div></div>
+                                <span>824</span>
+                            </div>
                             <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
                                 pultvätta, om pneumativ.</p>
                             <h4>Order Now</h4>
+
+
                         </div>
                     </TabPanel>
                     <TabPanel>
                         <div className="panel-content">
-                            <h2>National Foods
-
-                                .................................................................... <span>$24</span>
-                            </h2>
+                            <div className='panel-content__block'>
+                                <h2>National Foods</h2>
+                                <div></div>
+                                <span>824</span>
+                            </div>
                             <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
                                 pultvätta, om pneumativ.</p>
                             <h4>Order Now</h4>
 
 
-                            <h2>National Foods
-
-                                .................................................................... <span>$24</span>
-                            </h2>
+                            <div className='panel-content__block'>
+                                <h2>National Foods</h2>
+                                <div></div>
+                                <span>824</span>
+                            </div>
                             <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
                                 pultvätta, om pneumativ.</p>
                             <h4>Order Now</h4>
 
 
-                            <h2>National Foods
-                                .................................................................... <span>$24</span>
-                            </h2>
+                            <div className='panel-content__block'>
+                                <h2>National Foods</h2>
+                                <div></div>
+                                <span>824</span>
+                            </div>
                             <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
                                 pultvätta, om pneumativ.</p>
                             <h4>Order Now</h4>
 
 
-                            <h2>National Foods
-                                .................................................................... <span>$24</span>
-                            </h2>
+                            <div className='panel-content__block'>
+                                <h2>National Foods</h2>
+                                <div></div>
+                                <span>824</span>
+                            </div>
                             <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
                                 pultvätta, om pneumativ.</p>
                             <h4>Order Now</h4>
 
 
-                            <h2>National Foods
-                                .................................................................... <span>$24</span>
-                            </h2>
-                            <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
-                                pultvätta, om pneumativ.</p>
-                            <h4>Order Now</h4>
-                        </div>
-                    </TabPanel>
-                    <TabPanel>
-                        <div className="panel-content">
-                            <h2>Eastern cuisine
-
-                                .................................................................... <span>$24</span>
-                            </h2>
-                            <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
-                                pultvätta, om pneumativ.</p>
-                            <h4>Order Now</h4>
-
-
-                            <h2>Eastern cuisine
-
-                                .................................................................... <span>$24</span>
-                            </h2>
-                            <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
-                                pultvätta, om pneumativ.</p>
-                            <h4>Order Now</h4>
-
-
-                            <h2>Eastern cuisine
-                                .................................................................... <span>$24</span>
-                            </h2>
-                            <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
-                                pultvätta, om pneumativ.</p>
-                            <h4>Order Now</h4>
-
-
-                            <h2>Eastern cuisine
-                                .................................................................... <span>$24</span>
-                            </h2>
-                            <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
-                                pultvätta, om pneumativ.</p>
-                            <h4>Order Now</h4>
-
-
-                            <h2>Eastern cuisine
-                                .................................................................... <span>$24</span>
-                            </h2>
+                            <div className='panel-content__block'>
+                                <h2>National Foods</h2>
+                                <div></div>
+                                <span>824</span>
+                            </div>
                             <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
                                 pultvätta, om pneumativ.</p>
                             <h4>Order Now</h4>
@@ -291,43 +285,103 @@ const Main = () => {
                     </TabPanel>
                     <TabPanel>
                         <div className="panel-content">
-                            <h2>Fast foods
-
-                                .................................................................... <span>$24</span>
-                            </h2>
+                            <div className='panel-content__block'>
+                                <h2>Eastern cuisine</h2>
+                                <div></div>
+                                <span>824</span>
+                            </div>
                             <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
                                 pultvätta, om pneumativ.</p>
                             <h4>Order Now</h4>
 
 
-                            <h2>Fast foods
-
-                                .................................................................... <span>$24</span>
-                            </h2>
+                            <div className='panel-content__block'>
+                                <h2>Eastern cuisine</h2>
+                                <div></div>
+                                <span>824</span>
+                            </div>
                             <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
                                 pultvätta, om pneumativ.</p>
                             <h4>Order Now</h4>
 
 
-                            <h2>Fast foods
-                                .................................................................... <span>$24</span>
-                            </h2>
+                            <div className='panel-content__block'>
+                                <h2>Eastern cuisine</h2>
+                                <div></div>
+                                <span>824</span>
+                            </div>
                             <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
                                 pultvätta, om pneumativ.</p>
                             <h4>Order Now</h4>
 
 
-                            <h2>Fast foods
-                                .................................................................... <span>$24</span>
-                            </h2>
+                            <div className='panel-content__block'>
+                                <h2>Eastern cuisine</h2>
+                                <div></div>
+                                <span>824</span>
+                            </div>
                             <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
                                 pultvätta, om pneumativ.</p>
                             <h4>Order Now</h4>
 
 
-                            <h2>Fast foods
-                                .................................................................... <span>$24</span>
-                            </h2>
+                            <div className='panel-content__block'>
+                                <h2>Eastern cuisine</h2>
+                                <div></div>
+                                <span>824</span>
+                            </div>
+                            <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
+                                pultvätta, om pneumativ.</p>
+                            <h4>Order Now</h4>
+                        </div>
+                    </TabPanel>
+                    <TabPanel>
+                        <div className="panel-content">
+                            <div className='panel-content__block'>
+                                <h2>Fast Brewery</h2>
+                                <div></div>
+                                <span>$24</span>
+                            </div>
+                            <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
+                                pultvätta, om pneumativ.</p>
+                            <h4>Order Now</h4>
+
+
+                            <div className='panel-content__block'>
+                                <h2>Fast Brewery</h2>
+                                <div></div>
+                                <span>$24</span>
+                            </div>
+                            <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
+                                pultvätta, om pneumativ.</p>
+                            <h4>Order Now</h4>
+
+
+                            <div className='panel-content__block'>
+                                <h2>Fast Brewery</h2>
+                                <div></div>
+                                <span>$24</span>
+                            </div>
+                            <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
+                                pultvätta, om pneumativ.</p>
+                            <h4>Order Now</h4>
+
+
+                            <div className='panel-content__block'>
+                                <h2>Fast Brewery</h2>
+                                <div></div>
+                                <span>$24</span>
+                            </div>
+                            <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
+                                pultvätta, om pneumativ.</p>
+                            <h4>Order Now</h4>
+
+
+                            <div className='panel-content__block'>
+                                <h2>Fast Brewery</h2>
+                                <div></div>
+                                <span>$24</span>
+                            </div>
                             <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
                                 pultvätta, om pneumativ.</p>
                             <h4>Order Now</h4>
@@ -337,11 +391,10 @@ const Main = () => {
                 </Tabs>
 
                 <div className='main_block__btn'>
-
                     <div className='main_block__arrow'></div>
-                    <button onClick={() =>  navigate('/menu')}>View Full menu <MdOutlineArrowRightAlt className='arrowR'/></button>
+                    <button onClick={() => navigate('/menu')}>View Full menu <MdOutlineArrowRightAlt
+                        className='arrowR'/></button>
                     <div className='main_block__arrow'></div>
-
                 </div>
 
             </div>

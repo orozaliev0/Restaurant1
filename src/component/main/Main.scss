@@ -16,7 +16,7 @@
 
     &__vector {
       display: flex;
-      align-items: center;
+      //align-items: center;
       flex-direction: column;
     }
   }
@@ -28,30 +28,29 @@
     font-size: 30px;
     text-align: center;
     color: #FFFFFF;
-    margin-bottom: 20px;
   }
 
   .main_block {
 
     .react-tabs {
-      display: flex;
-      align-items: center;
-      margin-left: 260px;
-      height: 500px;
+      //display: flex;
+      //align-items: center;
+      margin-left: 290px;
       outline: none;
 
     }
 
     .react-tabs__tab-list {
       font-family: 'Inter', sans-serif;
-      font-weight: 800;
+      font-weight: 400;
       flex-direction: column;
-      width: 270px;
-      margin: 0;
-      padding: 0;
+      width: 280px;
+      //margin: 0;
+      //padding: 0;
       color: white;
       font-size: 16px;
-      background: #262d3a;
+      height: 319px;
+      background: #1F2731;
     }
 
     .react-tabs__tab {
@@ -60,9 +59,9 @@
       padding: 25px 6px;
       cursor: pointer;
       div{
-        border-bottom: 1px solid white;
-        width: 100px;
-        margin: 0 auto;
+        border-bottom: 0.1px solid rgba(169, 168, 168, 0.86);
+        width: 150px;
+        margin: 15px auto;
       }
     }
 
@@ -72,6 +71,7 @@
       border: none;
       outline: none;
       color: white;
+
     }
 
     .react-tabs__tab {
@@ -80,9 +80,24 @@
 
 
     .panel-content {
-      margin-left: 140px;
-      margin-top: 150px;
+      margin-left: 50px;
+      margin-top: 270px;
 
+      &__block{
+        display: flex;
+        align-items: center;
+
+        span{
+          color: red;
+          font-family: 'Inter', sans-serif;
+          font-size: 15px;
+        }
+        div{
+          width: 350px;
+          border-bottom: 1px dashed white;
+          margin: 0 10px;
+        }
+      }
       img {
         width: 500px;
       }
@@ -92,14 +107,6 @@
         font-size: 17px;
         color: #FFFFFF;
         margin-bottom: 10px;
-
-
-        span{
-          color: red;
-          font-family: 'Inter', sans-serif;
-          font-size: 15px;
-
-        }
       }
 
       p {
@@ -114,28 +121,28 @@
         font-weight: 100;
         font-size: 10px;
         color: #FFFFFF;
-        margin-left: 350px;
-        width: 80px ;
-        padding: 10px 0;
+        margin-left: 460px;
+        width: 50px ;
+        padding: 5px 0;
         text-align: center;
         border-bottom: 1px solid white;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
       }
     }
 
     &__arrow {
-      margin: 10px 715px;
-      width: 70px;
+      margin: 10px 735px;
+      width: 80px;
       height: 2px;
       background: red;
     }
     &__btn{
-      margin-top: 100px;
+      margin-top: -20px;
       button {
         //margin-top: 100px;
         display: flex;
         align-items: center;
-        margin-left: 670px;
+        margin-left: 695px;
         background: transparent;
         text-align: center;
         padding: 10px 20px;
