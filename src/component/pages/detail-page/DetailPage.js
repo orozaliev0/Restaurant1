@@ -23,7 +23,7 @@ const DetailPage = () => {
 
     return (
 
-        <div className='menu' >
+        <div className='menu'>
 
             <img src={x} alt="" className='menu--svg'/>
 

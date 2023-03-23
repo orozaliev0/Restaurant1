@@ -24,70 +24,137 @@
   padding: 25px 6px;
   cursor: pointer;
 
-  div{
+  div {
     border-bottom: 1px solid white;
     width: 100px;
     margin: 0 auto;
-  }
-}
 
-.react-tabs__tab--selected {
-  transition: .3s;
-  background: #810000;
-  border: none;
-  outline: none;
-  color: white;
+    .menu {
+      height: 100vh;
 
-}
+      .react-tabs {
+        display: flex;
+        align-items: center;
+        margin-left: 160px;
+        height: 500px;
+        outline: none;
+        margin-bottom: 200px;
+      }
 
-.react-tabs__tab {
-  text-align: center;
-}
+      .react-tabs__tab-list {
+        font-family: 'Inter', sans-serif;
+        font-weight: 800;
+        flex-direction: column;
+        width: 270px;
+        margin: 40px;
+        //margin: 0px;
+        //padding: 0;
+        color: white;
+        //font-size: 16px;
+        background: #262d3a;
+
+        .react-tabs__tab--selected {
+          transition: .3s;
+          background: #810000;
+          border: none;
+          outline: none;
+          color: white;
+        }
+
+      }
+
+      .react-tabs__tab {
+        height: 10px;
+        list-style: none;
+        padding: 25px 6px;
+        cursor: pointer;
+
+        .panel-page {
+
+          margin-left: 160px;
+          margin-top: 150px;
+
+          div {
+            border-bottom: 1px solid white;
+            width: 100px;
+            margin: 0 auto;
+          }
+        }
+
+        .react-tabs__tab--selected {
+          transition: .3s;
+          background: #810000;
+          border: none;
+          outline: none;
+          color: white;
+
+        }
+
+        .react-tabs__tab {
+          text-align: center;
+        }
 
 
-.panel-page {
+        .panel-page {
+          //display: flex;
+          //justify-content: space-between;
+          //flex-wrap: wrap;
+          //align-items: center;
+          margin-left: 160px;
+          margin-top: 150px;
 
-  margin-left: 160px;
-  margin-top: 150px;
+          &__img {
+            background: white;
+            margin: 7px 5px;
 
-  &__img {
-    background: white;
-    margin: 7px 5px;
+          }
 
-  }
-  img {
-    width: 270px;
-    height: 137px;
-  }
+          img {
+            width: 270px;
+            height: 137px;
+          }
 
-  h2{
-    font-family: 'Spartan',sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    color: #1F2731;
-    margin-left: 10px;
+          h2 {
+            font-family: 'Spartan', sans-serif;
+            font-weight: 600;
+            font-size: 14px;
+            color: #1F2731;
+            margin-left: 10px;
 
 
-    span{
-      color: red;
-      font-family: 'Inter', sans-serif;
-      font-size: 15px;
-      margin-left: 150px;
+            span {
+              color: red;
+              font-family: 'Inter', sans-serif;
+              font-size: 15px;
+              margin-left: 150px;
+            }
+          }
+
+          p {
+            font-family: 'Spartan', sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+            color: #939393;
+            margin-left: 10px;
+          }
+
+        }
+
+        p {
+          font-family: 'Spartan', sans-serif;
+          font-weight: 500;
+          font-size: 14px;
+          color: #939393;
+          margin-left: 10px;
+        }
+
+
+      }
+
+      .menu {
+        margin-top: 70px;
+        padding-bottom: 150px;
+      }
     }
   }
-
-  p {
-    font-family: 'Spartan',sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    color: #939393;
-    margin-left: 10px;
-  }
-
-
-}
-
-.menu{
-  margin-top: 70px;
-  padding-bottom: 150px;
 }

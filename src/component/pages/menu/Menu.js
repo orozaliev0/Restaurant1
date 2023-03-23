@@ -26,6 +26,7 @@ const Menu = () => {
     return (
 
         <div className='menu'>
+
             <Tabs>
                 <TabList>
                     <Tab>
@@ -320,6 +321,9 @@ const Menu = () => {
                 </TabPanel>
 
             </Tabs>
+
+
+
         </div>
 
     );

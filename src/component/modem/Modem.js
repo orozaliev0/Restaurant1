@@ -14,7 +14,7 @@ import img5 from "../../image/Component5.png"
 const Modem = () => {
 
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 3,
@@ -56,7 +56,7 @@ const Modem = () => {
                     <img src={Vector} alt=""/>
                     <img src={Line} alt=""/>
                 </div>
-                <h2>modern interior</h2>
+                <h2>Modern interior</h2>
                 <div className='modern__vector'>
                     <img src={Vector1} alt=""/>
                     <img src={Line} alt=""/>
