@@ -24,12 +24,50 @@
   padding: 25px 6px;
   cursor: pointer;
 
-  div{
+  .ttt {
     border-bottom: 1px solid white;
-    width: 100px;
-    margin: 0 auto;
+    width: 150px;
+    margin: 15px auto;
+    opacity: 0.2;
   }
 }
+
+
+
+
+
+
+.react-tabs__tab--selected {
+  //transition: .3s;
+  //background: #810000;
+  //border: none;
+  //outline: none;
+  //color: white;
+  .dd{
+    display: block;
+  }
+
+}
+
+
+.react-tabs__tab div {
+  border-bottom: 1px solid white;
+  width: 150px;
+  opacity: 0.2;
+}
+
+
+.dd {
+  position: absolute;
+  top: 30px;
+  left: 250px;
+  width: 10px;
+  height: 1px;
+  background: white;
+  display: none;
+
+}
+
 
 .react-tabs__tab--selected {
   transition: .3s;
@@ -46,14 +84,12 @@
 
 
 .panel-page {
-
-  margin-left: 160px;
-  margin-top: 150px;
+  margin-left: 116px;
+  margin-top: 285px;
 
   &__img {
     background: white;
-    margin: 7px 5px;
-
+    margin: 10px 13px;
   }
   img {
     width: 270px;

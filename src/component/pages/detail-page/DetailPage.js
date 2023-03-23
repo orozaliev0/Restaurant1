@@ -31,56 +31,89 @@ const DetailPage = () => {
             <Tabs>
                 <TabList>
                     <Tab>
+                        <div className='dd' style={{width: "50px"}}></div>
                         <p>Desserts</p>
-                        <div></div>
+                        <div className="ttt" ></div>
+
                     </Tab>
                     <Tab>
+                        <div className='dd' style={{width: "50px"}}></div>
                         <p>Hot Drinks</p>
-                        <div></div>
+                        <div  className="ttt"></div>
                     </Tab>
                     <Tab>
+                        <div className='dd' style={{width: "50px"}}></div>
                         <p>Cold Drinks</p>
-                        <div></div>
+                        <div  className="ttt"></div>
                     </Tab>
                     <Tab>
+                        <div className='dd' style={{width: "50px"}}></div>
                         <p>National Foods</p>
-                        <div></div>
+                        <div  className="ttt"></div>
                     </Tab>
                     <Tab>
+                        <div className='dd' style={{width: "50px"}}></div>
                         <p>Eastern cuisine</p>
-                        <div></div>
+                        <div  className="ttt"></div>
                     </Tab>
                     <Tab>
+                        <div className='dd' style={{width: "50px"}}></div>
                         <p>Fast foods</p>
-                        <div></div>
+                        <div  className="ttt"></div>
                     </Tab>
                 </TabList>
 
                 <TabPanel>
                     <div className="panel-page">
 
-                        <div style={{
+                        <div className="panel-page__img2" style={{
                             display: "flex",
-                            marginTop: '330px'
+                            marginTop: '386px'
+
                         }}>
-                            <div className='panel-page__img2'>
-                                <img src={pageImg1} alt=""/>
-                                <h2 style={{color: "white"}}>Ice Cream <span>$24</span></h2>
-                                <p>soda,cream,milk,sugar</p>
-                            </div>
+                               <div className='panel-page__img3'>
+                                   <img src={pageImg1} alt=""/>
+                                   <div className="panel-page__img3--block">
+                                       <div className="panel-page__img3--block__left">
+                                           <h3>Ice Cream</h3>
+                                           <h6>soda,cream,milk,sugar</h6>
+                                       </div>
+                                       <div className="panel-page__img3--block__right">
+                                           <h4>$9.11</h4>
+                                       </div>
+                                   </div>
+                               </div>
 
 
-                            <div className='panel-page__img2'>
-                                {/*<img src={pageImg2} alt=""/>*/}
-                                <h2 style={{color: "white", marginBottom: '10px', paddingTop: "5px"}}>Extras</h2>
-                                <p style={{marginBottom: "5px"}}>Cherry <span>$24</span></p>
-                                <p style={{paddingBottom: "5px"}}>Cherry <span>$24</span></p>
-                                <h2 style={{color: "white", marginBottom: '10px'}}>Drinks</h2>
-                                <p style={{marginBottom: "5px"}}>Coca Cola <span>$24</span></p>
-                                <p>Coca Cola <span>$24</span></p>
-                            </div>
+                               <div className='panel-page__img4'>
+                                  <h3>Extras</h3>
+                                   <div className="panel-page__img4--block1">
+                                       <div className="panel-page__img4--block1__title">
+                                           <h4>Cherry</h4>
+                                           <h6>$0.90</h6>
+                                       </div>
+                                       <div className="panel-page__img4--block1__title">
+                                           <h4>Cherry</h4>
+                                           <h6>$0.90</h6>
+                                       </div>
+                                   </div>
 
-                        </div>
+                                   <div className="panel-page__img4--block2">
+                                       <h3>Drinks</h3>
+                                       <div className="panel-page__img4--block1">
+                                           <div className="panel-page__img4--block1__title">
+                                               <h4>Cherry</h4>
+                                               <h6>$0.90</h6>
+                                           </div>
+                                           <div className="panel-page__img4--block1__title">
+                                               <h4>Cherry</h4>
+                                               <h6>$0.90</h6>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+
 
 
                         <h1 className='panel-page__title'>Similar gueries</h1>
