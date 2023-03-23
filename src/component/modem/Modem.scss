@@ -2,11 +2,14 @@
 .container{
 
 
+
+
   .modern {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 0;
+    padding: 20px 0;
+    margin-top: 90px;
 
     h2 {
       font-family: 'Shalimar', sans-serif;
@@ -14,12 +17,11 @@
       font-weight: 400;
       font-size: 40px;
       color: #FFFFFF;
-      padding: 10px 10px;
+      padding: 0 10px;
     }
 
     &__vector {
       display: flex;
-      align-items: center;
       flex-direction: column;
     }
 
@@ -44,8 +46,5 @@
     height: 244px;
     padding-bottom: 10px;
   }
-
-
-
 
 }

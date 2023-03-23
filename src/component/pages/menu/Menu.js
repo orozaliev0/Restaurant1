@@ -166,8 +166,6 @@ const Menu = () => {
                                 <p>soda,cream,milk,sugar</p>
                             </div>
                         </div>
-
-
                     </div>
                 </TabPanel>
 
@@ -191,6 +189,7 @@ const Menu = () => {
                                 <p>soda,cream,milk,sugar</p>
                             </div>
                         </div>
+
                         <div style={{
                             display: "flex"
                         }}>
