@@ -3,6 +3,7 @@ import "./Header.scss"
 import "./media.scss"
 import {AiOutlineSearch} from "react-icons/ai"
 import {AiOutlineMenu} from "react-icons/ai"
+import {NavLink,Link} from "react-router-dom";
 
 
 const Header = () => {
@@ -16,11 +17,13 @@ const Header = () => {
                     <div className="header">
                         <h1>Restaurant</h1>
                         <div className="header-title">
-                            <a href="#">interior</a>
-                            <a href="#">About Us</a>
-                            <a href="#">Menu</a>
-                            <a href="#">Contacts</a>
-                            <div className={"input"}>
+
+                                <Link to={'/'}>Interior</Link>
+                                <Link to={'/about-us'}>About Us</Link>
+                                <Link to={'/menu'}>Menu</Link>
+                                <Link to={'/contact'}>Contacts</Link>
+                                <div className={"input"}>
+
                                 <input type="text" placeholder="Search"/>
                                 <AiOutlineSearch className={"icon"}/>
                             </div>
