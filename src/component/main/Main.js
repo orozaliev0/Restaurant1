@@ -42,28 +42,34 @@ const Main = () => {
                 <Tabs>
                     <TabList>
                         <Tab>
+                            <div className='dd' style={{width: "50px"}}></div>
                             <p>Desserts</p>
-                            <div></div>
+                            <div className="ttt"></div>
                         </Tab>
                         <Tab>
+                            <div className='dd' style={{width: "50px"}}></div>
                             <p>Hot Drinks</p>
-                            <div></div>
+                            <div className="ttt"></div>
                         </Tab>
                         <Tab>
+                            <div className='dd' style={{width: "50px"}}></div>
                             <p>Cold Drinks</p>
-                            <div></div>
+                            <div className="ttt"></div>
                         </Tab>
                         <Tab>
+                            <div className='dd' style={{width: "50px"}}></div>
                             <p>National Foods</p>
-                            <div></div>
+                            <div className="ttt" ></div>
                         </Tab>
                         <Tab>
+                            <div className='dd' style={{width: "50px"}}></div>
                             <p>Eastern cuisine</p>
-                            <div></div>
+                            <div className="ttt"></div>
                         </Tab>
                         <Tab>
+                            <div className='dd' style={{width: "50px"}}></div>
                             <p>Fast foods</p>
-                            <div></div>
+                            <div className="ttt"></div>
                         </Tab>
                     </TabList>
 
