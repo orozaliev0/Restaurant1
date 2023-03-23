@@ -26,15 +26,14 @@ const Header = () => {
 
                                 <input type="text" placeholder="Search"/>
                                 <AiOutlineSearch className={"icon"}/>
+                                    <select>
+                                        <option>En</option>
+                                        <option>Ru</option>
+                                        <option>Kg</option>
+                                    </select>
                             </div>
                         </div>
-                        <div className="header-select">
-                            <select>
-                                <option>En</option>
-                                <option>Ru</option>
-                                <option>Kg</option>
-                            </select>
-                        </div>
+
                         <div className="Menu">
                             <AiOutlineMenu onClick={() => setBurger(!burger)} className="menu-icon"/>
                             <div className="burger" style={{display: burger? "block" : "none" }}>

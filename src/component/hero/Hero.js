@@ -15,7 +15,6 @@ const Hero = () => {
                     <div className="hero">
                         <hr className= "hero-hr1"/>
                         <hr className= "hero-hr2"/>
-                        <hr className= "hero-hr3"/>
                     <div className="heroo">
                         <div className="heroo-title">
                             <div className={"vector-left"}>
@@ -32,7 +31,12 @@ const Hero = () => {
                             <h2>Italian Cuisine</h2>
                             <p>Classic steak & delicious with delightfully unexpenced twists. <br/>
                                 The Restaurant`s sunny decor was inspired by the diners</p>
-                            <h6>Reserve Your  <IoMdArrowRoundForward  className="hero-right"/> </h6>
+                            <div className="hero-button">
+                                <div className="btn-top"></div>
+                                <button>Reserve Your  <IoMdArrowRoundForward  className="hero-right"/></button>
+                                <div className="btn-bottom"></div>
+                            </div>
+
                         </div>
                     </div>
                     <div className="hero-bottom">

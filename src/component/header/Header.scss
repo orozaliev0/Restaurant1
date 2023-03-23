@@ -25,7 +25,7 @@
 
 .header a{
   text-decoration: none;
-  margin: 0 30px;
+  margin: 0 40px;
   font-weight: 500;
   font-size: 16px;
   text-transform: capitalize;
@@ -49,7 +49,8 @@
 }
 
 .header-title input{
-  width: 160px;
+  margin: 0 90px;
+  width: 200px;
   height: 37px;
   background: #EF272C;
   opacity: 0.8;
@@ -64,11 +65,21 @@
   color: #FFFFFF;
 }
 
-.header-select{
+select{
   border-radius: 10px;
+  outline: none;
   border: none;
   margin-right:100px;
+  background: transparent;
+  color: #FFFFFF;
 }
+option{
+  outline: none;
+  border: none;
+  color: #1F2731;
+  background: transparent;
+}
+
 .header-title{
   display: flex;
   align-items: center;
@@ -123,7 +134,7 @@
   }
   .icon{
     position: absolute;
-    left: 10px;
+    left: 100px;
     top: 10px;
     color: #FFFFFF;
   }
