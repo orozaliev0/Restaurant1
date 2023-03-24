@@ -364,7 +364,6 @@ const DetailPage = () => {
 
             </Tabs>
 
-
         </div>
 
     );
