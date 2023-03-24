@@ -49,7 +49,7 @@ const Hero = () => {
                             <div className="hero-button">
                                 <div className="btn-top"></div>
                                 <button onClick={() => setModal(!modal)}>Reserve Your  <IoMdArrowRoundForward  className="hero-right"/></button>
-                                <div className="modal" style={{display: modal? "block" : "none" }}>
+                                <div className="modal" style={{right: modal? "0" : "-2000px" }}>
                                     <div className="modal-top">
                                         <div className="modal-top_left">
                                             <IoMdContact className="modal-icon"/>
@@ -69,7 +69,7 @@ const Hero = () => {
                                         </div>
                                     </div>
                                     <div className="modal-btn">
-                                        <button>Сontact</button>
+                                        <button onClick={() => setModal(!modal)}>Сontact</button>
                                     </div>
                                 </div>
                                 <div className="btn-bottom"></div>
