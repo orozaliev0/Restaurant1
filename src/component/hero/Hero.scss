@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital@1&family=Shalimar&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital@1&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=League+Spartan:wght@100&family=Lora:ital@1&family=Open+Sans:wght@300&display=swap');
 
 #hero{
   background: url("img/hero-bg.jpg") no-repeat center/cover;
@@ -58,6 +59,10 @@
     .vector-left{
       display: flex;
       flex-direction: column;
+      align-items: flex-end;
+      &-bottom{
+        margin: 4px 0;
+      }
     }
     .vector-right{
       display: flex;
@@ -94,6 +99,52 @@
         width: 150px;
         height: 2px;
         background: red;
+      }
+      .modal{
+        margin: 20px 0;
+        width: 250px;
+        height: 260px;
+        background: #13202a;
+        border-radius: 10px;
+        &-icon{
+          font-size: 40px;
+          background: white;
+          color: #0b1c26;
+          border-radius: 50%;
+        }
+        &-top{
+          display: flex;
+          margin: 40px 5px 0 5px;
+          &_left{
+            padding: 0 10px;
+          }
+          &_right{
+            h6{
+              color: #FFFFFF;
+              font-weight: 100;
+              padding: 0 0 5px 0;
+            }
+            h4{
+              color: #FFFFFF;
+              font-weight: 100;
+            }
+          }
+        }
+        &-bottom{
+          display: flex;
+          margin: 20px 5px;
+        }
+        &-btn{
+          padding: 10px 15px;
+          button{
+            font-family: 'Open Sans', sans-serif;
+            padding: 15px 70px;
+            border-radius: 5px;
+            background: #EF272C;
+            border: none;
+            font-size: 17px;
+          }
+        }
       }
     }
     button{
