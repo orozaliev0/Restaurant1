@@ -27,7 +27,6 @@ const About = () => {
                     <div className='about--img'>
                         <img src={Food1} alt=""/>
                         <img src={Food2} alt=""/>
-
                     </div>
 
                 </div>
