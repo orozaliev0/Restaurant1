@@ -17,9 +17,15 @@ const Modem = () => {
         dots: false,
         infinite: true,
         speed: 500,
+        arrows: false,
+        // nextArrow: <AiOutlineSearch/>,
+        // prevArrow: <img src={Line} alt=""/>,
         slidesToShow: 3,
         slidesToScroll: 3,
         initialSlide: 0,
+
+
+
         responsive: [
             {
                 breakpoint: 1024,
@@ -50,7 +56,6 @@ const Modem = () => {
 
     return (
         <div className='container'>
-
             <div className='modern'>
                 <div className='modern__vector'>
                     <img src={Vector} alt=""/>
@@ -63,10 +68,13 @@ const Modem = () => {
                 </div>
             </div>
 
-            <Slider  {...settings}>
+
+            {/*<div className='line'></div>*/}
+
+            <Slider {...settings}>
 
                 <div>
-                    <img src={img1} alt=""/>
+                    <img src={img1} alt="" style={{marginLeft: '8px'}}/>
                 </div>
                 <div>
                     <img src={img2} alt="" className='img'/>
@@ -79,12 +87,9 @@ const Modem = () => {
                 <div>
                     <img src={img5} alt="" style={{marginLeft: "60px"}}/>
                 </div>
-
-
                 <div>
                     <img src={img1} alt=""/>
                 </div>
-
                 <div>
                     <img src={img2} alt="" className='img'/>
 
@@ -93,7 +98,6 @@ const Modem = () => {
                         <img src={img4} alt="" className='img'/>
                     </div>
                 </div>
-
                 <div>
                     <img src={img5} alt="" style={{marginLeft: "60px"}}/>
                 </div>

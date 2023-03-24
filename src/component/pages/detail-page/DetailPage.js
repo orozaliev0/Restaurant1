@@ -18,6 +18,7 @@ import pageImg6 from "../../../image/pageImg6.png";
 import drinks from "../../../image/italian-hot-drinks.webp";
 import x from "../../../image/x.svg"
 import "./DetailPage.scss"
+import {Link} from "react-router-dom";
 
 const DetailPage = () => {
 
@@ -25,7 +26,9 @@ const DetailPage = () => {
 
         <div className='menu'>
 
-            <img src={x} alt="" className='menu--svg'/>
+          <Link to={"/menu"}>
+              <img src={x} alt="" className='menu--svg'/>
+          </Link>
 
 
             <Tabs>

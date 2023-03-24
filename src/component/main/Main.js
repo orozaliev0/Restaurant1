@@ -5,13 +5,7 @@ import Vector1 from "../../image/Vector 1.svg"
 import Line from "../../image/Line.svg"
 import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
 import {MdOutlineArrowRightAlt} from "react-icons/md"
-import Hot_Drinks from "../../image/Hot Drinks.jpg"
-import cuisine from "../../image/italian-cuisine.jpg"
-import Cold_Drinks from "../../image/Cold Drinks.webp"
-import National_Foods from "../../image/National Foods.jpg"
-import Fast_foods from "../../image/Fast foods.jpg"
 import {useNavigate} from "react-router-dom";
-import line14 from "../../image/Line.svg"
 
 
 const Main = () => {

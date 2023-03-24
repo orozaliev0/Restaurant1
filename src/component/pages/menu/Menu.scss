@@ -50,19 +50,20 @@
 }
 
 
-.react-tabs__tab div {
-  border-bottom: 1px solid white;
-  width: 150px;
-  opacity: 0.2;
-}
+  //.react-tabs__tab div {
+  //  border-bottom: 1px solid white;
+  //  width: 150px;
+  //  opacity: 0.2;
+  //}
 
 
 .dd {
   position: absolute;
-  top: 30px;
+  top: 25px;
   left: 250px;
   width: 10px;
   height: 1px;
+  opacity: 0.7;
   background: white;
   display: none;
 
