@@ -6,7 +6,7 @@ import Food2 from './img/ProsessCoock2.png'
 const About = () => {
     return (
         <div id='about'>
-            <div className='container'>
+            <div className='containerAbout'>
                 <div className='about'>
                     <div className='about--us'>
                         <svg width="52" height="16" viewBox="0 0 52 16" fill="none" xmlns="http://www.w3.org/2000/svg">

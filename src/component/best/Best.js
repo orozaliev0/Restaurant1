@@ -8,6 +8,7 @@ import Slide4 from './img/Slide4.png'
 import Slide5 from './img/Slide5.png'
 import Slide6 from './img/Slide6.png'
 import {AiOutlineDoubleLeft} from "react-icons/ai";
+import next from "./../../image/next.svg"
 
 
 
@@ -16,6 +17,8 @@ const Best = () => {
         dots: false,
         infinite: false,
         speed: 500,
+        prevArrow: false,
+        nextArrow: <img src = {next} />,
         slidesToShow: 2,
         slidesToScroll: 2,
         initialSlide: 0,
@@ -42,14 +45,15 @@ const Best = () => {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1
-                }
+                },
+
             }
         ]
     };
     return (
         <div>
             <div id='bestSeller'>
-                <div className='container'>
+                <div className='containerAbout'>
                     <div className='best'>
                         <div className='best--title'>
                             <div className='best--title__first'>
@@ -66,11 +70,12 @@ const Best = () => {
                                     See what new at your Cafesio and You`ll find Cafesio <br/>
                                     Covent Carden moments.</p>
                             </div>
+
                         </div>
                         <div className='best-slide'>
                            <div className='slick-slider'>
                                <button className='slick-arrow slick-prev slick-disabled' > <AiOutlineDoubleLeft/> </button>
-                               <Slider  {...settings}>
+                               <Slider {...settings}>
                                    <div>
                                        <img src={Slide1} alt=""/>
                                    </div>
