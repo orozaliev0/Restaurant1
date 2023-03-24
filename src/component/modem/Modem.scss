@@ -10,12 +10,26 @@
     opacity: .6;
     top: 80px;
   }
+
+.container {
+
   .modern {
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
     overflow-x: auto;
     margin-right: -5.2%;
+    padding: 10px 0;
+    margin-top: 90px;
+
+    h2 {
+      font-family: 'Shalimar', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 40px;
+      color: #FFFFFF;
+      padding: 0 10px;
+    }
 
     &--text {
       display:flex;
@@ -59,6 +73,27 @@
         }
       }
     }
+  }
+  .line {
+    height: 0;
+    border: 0.4px solid #E5E5E5;
+    opacity: 0.3;
+    transform: rotate(90deg);
+  }
+
+  .block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 42px;
+
+    img {
+      padding: 0 7px;
+    }
+  }
+
+  .img {
+    padding-bottom: 20px;
   }
 
 

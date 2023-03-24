@@ -6,7 +6,6 @@ import Line from "../../image/Line.svg"
 import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
 import {MdOutlineArrowRightAlt} from "react-icons/md"
 import {useNavigate} from "react-router-dom";
-import line14 from "../../image/Line.svg"
 
 
 const Main = () => {
