@@ -1,5 +1,7 @@
 #main {
-
+.menu{
+  padding-bottom: 110px;
+}
   .block {
     display: flex;
     justify-content: center;
@@ -57,7 +59,7 @@
       padding: 0;
       color: white;
       font-size: 16px;
-      height: 317px;
+      height: 315px;
       background: #1F2731;
     }
 
@@ -68,7 +70,7 @@
       .ttt{
         border-bottom: 1px solid rgba(187, 184, 184, 0.86);
         width: 190px;
-        margin: 15px auto;
+        margin: 14px auto;
       }
     }
 
@@ -160,5 +162,6 @@
       }
     }
   }
+
 
 }
