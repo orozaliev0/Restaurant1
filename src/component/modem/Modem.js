@@ -108,7 +108,7 @@ const Modem = () => {
 
                         </Slider>
                     </div>
-'
+                    '
 
                 </div>
             </div>
