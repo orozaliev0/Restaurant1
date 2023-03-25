@@ -4,6 +4,7 @@ import "./media.scss"
 import {AiOutlineSearch} from "react-icons/ai"
 import {AiOutlineMenu} from "react-icons/ai"
 import {NavLink,Link} from "react-router-dom";
+import {AiOutlineCloseCircle} from "react-icons/ai"
 
 
 const Header = () => {
@@ -37,13 +38,17 @@ const Header = () => {
                         </div>
 
                         <div className="Menu">
-                            <AiOutlineMenu onClick={() => setBurger(!burger)} className="menu-icon"/>
+                            <button onClick={() => setBurger(!burger)} className="menu-icon">{burger? <AiOutlineCloseCircle/> : <AiOutlineMenu/>}</button>
                             <div className="burger" style={{display: burger? "block" : "none" }}>
-                                <a href="#">interior</a>
-                                <a href="#">About Us</a>
-                                <a href="#">Menu</a>
-                                <a href="#">Contacts</a>
-                                <input type="text" className="burger-input" placeholder="Search"/>
+                                <h6 href="#">interior</h6>
+                                <h6 href="#">About Us</h6>
+                                <h6 href="#">Menu</h6>
+                                <h6 href="#">Contacts</h6>
+                                <div className="burger-link">
+                                    <a href="#">En</a>
+                                    <a href="#">Ru</a>
+                                    <a href="#">Kz</a>
+                                </div>
                             </div>
                         </div>
 
