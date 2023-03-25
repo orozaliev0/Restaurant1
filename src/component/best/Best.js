@@ -11,44 +11,15 @@ import {AiOutlineDoubleLeft} from "react-icons/ai";
 import next from "./../../image/next.svg"
 
 
-
 const Best = () => {
     const settings = {
         dots: false,
-        infinite: false,
+        infinite: true,
         speed: 500,
         prevArrow: false,
-        nextArrow: <img src = {next} />,
+        nextArrow: <img src={next}/>,
         slidesToShow: 2,
-        slidesToScroll: 2,
-        initialSlide: 0,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
-                    infinite: true,
-                    dots: true
-                }
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
-                    initialSlide: 2
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                },
-
-            }
-        ]
+        slidesToScroll: 2
     };
     return (
         <div>
@@ -57,8 +28,11 @@ const Best = () => {
                     <div className='best'>
                         <div className='best--title'>
                             <div className='best--title__first'>
-                                <svg width="52" height="16" viewBox="0 0 52 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M51.2598 8.99226H12.2598C9.25977 7.99226 9.25977 2.99226 12.2598 1.49226C14.5451 0.349437 19.7598 0.99231 19.2598 5.99226" stroke="#EF272C" stroke-width="2"/>
+                                <svg width="52" height="16" viewBox="0 0 52 16" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M51.2598 8.99226H12.2598C9.25977 7.99226 9.25977 2.99226 12.2598 1.49226C14.5451 0.349437 19.7598 0.99231 19.2598 5.99226"
+                                        stroke="#EF272C" stroke-width="2"/>
                                     <line y1="14.9922" x2="51.2599" y2="14.9922" stroke="#EF272C" stroke-width="2"/>
                                 </svg>
                                 <h1>Best Sellers</h1>
@@ -73,31 +47,32 @@ const Best = () => {
 
                         </div>
                         <div className='best-slide'>
-                           <div className='slick-slider'>
-                               <button className='slick-arrow slick-prev slick-disabled' > <AiOutlineDoubleLeft/> </button>
-                               <Slider {...settings}>
-                                   <div>
-                                       <img src={Slide1} alt=""/>
-                                   </div>
-                                   <div>
-                                       <img src={Slide2} alt=""/>
-                                   </div>
-                                   <div>
-                                       <img src={Slide3} alt=""/>
-                                   </div>
-                                   <div>
-                                       <img src={Slide4} alt=""/>
-                                   </div>
-                                   <div>
-                                       <img src={Slide5} alt=""/>
-                                   </div>
-                                   <div>
-                                       <img src={Slide6} alt=""/>
-                                   </div>
+                            <div className='slick-slider'>
+                                <button className='slick-arrow slick-prev slick-disabled'><AiOutlineDoubleLeft/>
+                                </button>
+                                <Slider {...settings}>
+                                    <div>
+                                        <img src={Slide1} alt=""/>
+                                    </div>
+                                    <div>
+                                        <img src={Slide2} alt=""/>
+                                    </div>
+                                    <div>
+                                        <img src={Slide3} alt=""/>
+                                    </div>
+                                    <div>
+                                        <img src={Slide4} alt=""/>
+                                    </div>
+                                    <div>
+                                        <img src={Slide5} alt=""/>
+                                    </div>
+                                    <div>
+                                        <img src={Slide6} alt=""/>
+                                    </div>
 
-                               </Slider>
+                                </Slider>
 
-                           </div>
+                            </div>
                         </div>
                     </div>
                 </div>
