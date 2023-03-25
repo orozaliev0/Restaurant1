@@ -6,6 +6,14 @@
     left: 52px;
   }
 }
+
+@media (max-width: 1309px) {
+  .header a {
+    margin: 0px 27px;
+  }
+
+}
+
 @media  (max-width: 1240px){
   .header-title input {
     width: 157px;
@@ -16,7 +24,7 @@
     margin: 0 30px;
   }
 }
-@media  (max-width: 1140px){
+@media  (max-width: 1150px){
   .header-title input {
     margin: 0 17px;
   }
@@ -98,7 +106,7 @@
   }
   .hero-location{
     display: none;
-  }
+    }
 }
 
 @media (max-width: 712px) {
