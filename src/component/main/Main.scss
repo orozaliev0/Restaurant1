@@ -1,4 +1,5 @@
 #main {
+
 .menu{
   padding-bottom: 110px;
 }
@@ -13,6 +14,7 @@
       font-weight: 400;
       font-size: 40px;
       color: #FFFFFF;
+      padding: 10px 10px;
       padding: 10px 20px;
     }
 
@@ -48,6 +50,7 @@
     .react-tabs {
       margin-left: 250px;
       outline: none;
+
     }
 
     .react-tabs__tab-list {
@@ -55,6 +58,11 @@
       font-weight: 400;
       flex-direction: column;
       width: 280px;
+      //margin: 0;
+      //padding: 0;
+      color: white;
+      font-size: 16px;
+      height: 319px;
       margin: 0;
       padding: 0;
       color: white;
@@ -67,6 +75,10 @@
       list-style: none;
       padding: 26px 0;
       cursor: pointer;
+      div{
+        border-bottom: 0.1px solid rgba(169, 168, 168, 0.86);
+        width: 150px;
+        margin: 15px auto;
       .ttt{
         border-bottom: 1px solid rgba(187, 184, 184, 0.86);
         width: 190px;
@@ -80,6 +92,11 @@
       border: none;
       outline: none;
       color: white;
+
+    }
+
+    .react-tabs__tab {
+      text-align: center;
     }
 
     .react-tabs__tab {
@@ -91,6 +108,7 @@
 
     .panel-content {
       margin-left: 50px;
+      margin-top: 270px;
       margin-top: 265px;
 
       &__block{
@@ -99,6 +117,11 @@
 
         span{
           color: red;
+          font-family: 'Inter', sans-serif;
+          font-size: 15px;
+        }
+        div{
+          width: 350px;
           font-family: 'Playfair Display', serif;
           font-size: 15px;
         }
@@ -108,6 +131,19 @@
           margin: 0 10px;
         }
       }
+      img {
+        width: 500px;
+      }
+
+      h2{
+        font-family: 'Inter', sans-serif;
+        font-size: 17px;
+        color: #FFFFFF;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-family: 'Spartan',sans-serif;
 
 
       h2{
@@ -140,6 +176,21 @@
     }
 
     &__arrow {
+      margin: 10px 735px;
+      width: 80px;
+      height: 2px;
+      background: red;
+    }
+    &__btn{
+      margin-top: -20px;
+      button {
+        //margin-top: 100px;
+        display: flex;
+        align-items: center;
+        margin-left: 695px;
+        background: transparent;
+        text-align: center;
+        padding: 10px 20px;
       margin: 10px 600px;
       width: 120px;
       height: 1px;
