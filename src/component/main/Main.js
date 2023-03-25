@@ -4,7 +4,7 @@ import Vector from "../../image/Vector.svg"
 import Vector1 from "../../image/Vector 1.svg"
 import Line from "../../image/Line.svg"
 import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
-import {MdOutlineArrowRightAlt} from "react-icons/md"
+import {FaLongArrowAltRight} from "react-icons/fa"
 import {useNavigate} from "react-router-dom";
 
 
@@ -16,16 +16,16 @@ const Main = () => {
     return (
 
         <div id='main'>
-            <div className='containerAbout'>
+            <div className='container'>
 
                 <div className='block'>
                     <div className='block__vector'>
-                        <img src={Vector} alt=""/>
+                        <img src={Vector} alt="" className='block__vector_line'/>
                         <img src={Line} alt=""/>
                     </div>
                     <h2>Main Menu</h2>
                     <div className='block__vector'>
-                        <img src={Vector1} alt=""/>
+                        <img src={Vector1} alt="" className='block__vector__bottom'/>
                         <img src={Line} alt=""/>
                     </div>
                 </div>
@@ -55,7 +55,7 @@ const Main = () => {
                                 <Tab>
                                     <div className='dd' style={{width: "50px"}}></div>
                                     <p>National Foods</p>
-                                    <div className="ttt" ></div>
+                                    <div className="ttt"></div>
                                 </Tab>
                                 <Tab>
                                     <div className='dd' style={{width: "50px"}}></div>
@@ -77,7 +77,8 @@ const Main = () => {
                                         <div></div>
                                         <span>$24</span>
                                     </div>
-                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
+                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk.
+                                        Geogehet
                                         pultvätta, om pneumativ.</p>
                                     <h4>Order Now</h4>
 
@@ -87,7 +88,8 @@ const Main = () => {
                                         <div></div>
                                         <span>$24</span>
                                     </div>
-                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
+                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk.
+                                        Geogehet
                                         pultvätta, om pneumativ.</p>
                                     <h4>Order Now</h4>
 
@@ -97,7 +99,8 @@ const Main = () => {
                                         <div></div>
                                         <span>$24</span>
                                     </div>
-                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
+                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk.
+                                        Geogehet
                                         pultvätta, om pneumativ.</p>
                                     <h4>Order Now</h4>
 
@@ -107,7 +110,8 @@ const Main = () => {
                                         <div></div>
                                         <span>$24</span>
                                     </div>
-                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
+                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk.
+                                        Geogehet
                                         pultvätta, om pneumativ.</p>
                                     <h4>Order Now</h4>
 
@@ -117,7 +121,8 @@ const Main = () => {
                                         <div></div>
                                         <span>$24</span>
                                     </div>
-                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
+                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk.
+                                        Geogehet
                                         pultvätta, om pneumativ.</p>
                                     <h4>Order Now</h4>
 
@@ -132,7 +137,8 @@ const Main = () => {
                                         <div></div>
                                         <span>824</span>
                                     </div>
-                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
+                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk.
+                                        Geogehet
                                         pultvätta, om pneumativ.</p>
                                     <h4>Order Now</h4>
 
@@ -142,7 +148,8 @@ const Main = () => {
                                         <div></div>
                                         <span>824</span>
                                     </div>
-                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
+                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk.
+                                        Geogehet
                                         pultvätta, om pneumativ.</p>
                                     <h4>Order Now</h4>
 
@@ -152,7 +159,8 @@ const Main = () => {
                                         <div></div>
                                         <span>824</span>
                                     </div>
-                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
+                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk.
+                                        Geogehet
                                         pultvätta, om pneumativ.</p>
                                     <h4>Order Now</h4>
 
@@ -162,7 +170,8 @@ const Main = () => {
                                         <div></div>
                                         <span>824</span>
                                     </div>
-                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
+                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk.
+                                        Geogehet
                                         pultvätta, om pneumativ.</p>
                                     <h4>Order Now</h4>
 
@@ -172,7 +181,8 @@ const Main = () => {
                                         <div></div>
                                         <span>824</span>
                                     </div>
-                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
+                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk.
+                                        Geogehet
                                         pultvätta, om pneumativ.</p>
                                     <h4>Order Now</h4>
 
@@ -186,7 +196,8 @@ const Main = () => {
                                         <div></div>
                                         <span>824</span>
                                     </div>
-                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
+                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk.
+                                        Geogehet
                                         pultvätta, om pneumativ.</p>
                                     <h4>Order Now</h4>
 
@@ -196,7 +207,8 @@ const Main = () => {
                                         <div></div>
                                         <span>824</span>
                                     </div>
-                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
+                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk.
+                                        Geogehet
                                         pultvätta, om pneumativ.</p>
                                     <h4>Order Now</h4>
 
@@ -206,7 +218,8 @@ const Main = () => {
                                         <div></div>
                                         <span>824</span>
                                     </div>
-                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
+                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk.
+                                        Geogehet
                                         pultvätta, om pneumativ.</p>
                                     <h4>Order Now</h4>
 
@@ -216,7 +229,8 @@ const Main = () => {
                                         <div></div>
                                         <span>824</span>
                                     </div>
-                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
+                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk.
+                                        Geogehet
                                         pultvätta, om pneumativ.</p>
                                     <h4>Order Now</h4>
 
@@ -226,7 +240,8 @@ const Main = () => {
                                         <div></div>
                                         <span>824</span>
                                     </div>
-                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
+                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk.
+                                        Geogehet
                                         pultvätta, om pneumativ.</p>
                                     <h4>Order Now</h4>
 
@@ -240,7 +255,8 @@ const Main = () => {
                                         <div></div>
                                         <span>824</span>
                                     </div>
-                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
+                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk.
+                                        Geogehet
                                         pultvätta, om pneumativ.</p>
                                     <h4>Order Now</h4>
 
@@ -250,7 +266,8 @@ const Main = () => {
                                         <div></div>
                                         <span>824</span>
                                     </div>
-                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
+                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk.
+                                        Geogehet
                                         pultvätta, om pneumativ.</p>
                                     <h4>Order Now</h4>
 
@@ -260,7 +277,8 @@ const Main = () => {
                                         <div></div>
                                         <span>824</span>
                                     </div>
-                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
+                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk.
+                                        Geogehet
                                         pultvätta, om pneumativ.</p>
                                     <h4>Order Now</h4>
 
@@ -270,7 +288,8 @@ const Main = () => {
                                         <div></div>
                                         <span>824</span>
                                     </div>
-                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
+                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk.
+                                        Geogehet
                                         pultvätta, om pneumativ.</p>
                                     <h4>Order Now</h4>
 
@@ -280,7 +299,8 @@ const Main = () => {
                                         <div></div>
                                         <span>824</span>
                                     </div>
-                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
+                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk.
+                                        Geogehet
                                         pultvätta, om pneumativ.</p>
                                     <h4>Order Now</h4>
                                 </div>
@@ -292,7 +312,8 @@ const Main = () => {
                                         <div></div>
                                         <span>824</span>
                                     </div>
-                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
+                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk.
+                                        Geogehet
                                         pultvätta, om pneumativ.</p>
                                     <h4>Order Now</h4>
 
@@ -302,7 +323,8 @@ const Main = () => {
                                         <div></div>
                                         <span>824</span>
                                     </div>
-                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
+                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk.
+                                        Geogehet
                                         pultvätta, om pneumativ.</p>
                                     <h4>Order Now</h4>
 
@@ -312,7 +334,8 @@ const Main = () => {
                                         <div></div>
                                         <span>824</span>
                                     </div>
-                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
+                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk.
+                                        Geogehet
                                         pultvätta, om pneumativ.</p>
                                     <h4>Order Now</h4>
 
@@ -322,7 +345,8 @@ const Main = () => {
                                         <div></div>
                                         <span>824</span>
                                     </div>
-                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
+                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk.
+                                        Geogehet
                                         pultvätta, om pneumativ.</p>
                                     <h4>Order Now</h4>
 
@@ -332,7 +356,8 @@ const Main = () => {
                                         <div></div>
                                         <span>824</span>
                                     </div>
-                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
+                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk.
+                                        Geogehet
                                         pultvätta, om pneumativ.</p>
                                     <h4>Order Now</h4>
                                 </div>
@@ -344,7 +369,8 @@ const Main = () => {
                                         <div></div>
                                         <span>$24</span>
                                     </div>
-                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
+                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk.
+                                        Geogehet
                                         pultvätta, om pneumativ.</p>
                                     <h4>Order Now</h4>
 
@@ -354,7 +380,8 @@ const Main = () => {
                                         <div></div>
                                         <span>$24</span>
                                     </div>
-                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
+                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk.
+                                        Geogehet
                                         pultvätta, om pneumativ.</p>
                                     <h4>Order Now</h4>
 
@@ -364,7 +391,8 @@ const Main = () => {
                                         <div></div>
                                         <span>$24</span>
                                     </div>
-                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
+                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk.
+                                        Geogehet
                                         pultvätta, om pneumativ.</p>
                                     <h4>Order Now</h4>
 
@@ -374,7 +402,8 @@ const Main = () => {
                                         <div></div>
                                         <span>$24</span>
                                     </div>
-                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
+                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk.
+                                        Geogehet
                                         pultvätta, om pneumativ.</p>
                                     <h4>Order Now</h4>
 
@@ -384,32 +413,24 @@ const Main = () => {
                                         <div></div>
                                         <span>$24</span>
                                     </div>
-                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk. Geogehet
+                                    <p>Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att <br/>endomatisk.
+                                        Geogehet
                                         pultvätta, om pneumativ.</p>
                                     <h4>Order Now</h4>
                                 </div>
                             </TabPanel>
 
                         </Tabs>
-
                         <div className='main_block__btn'>
                             <div className='main_block__arrow'></div>
-                            <button onClick={() => navigate('/menu')}>View Full menu <MdOutlineArrowRightAlt
-                                className='arrowR'/></button>
+                            <button onClick={() => navigate('/menu')}>View Full menu <FaLongArrowAltRight
+                                className='arrowR'/>
+                            </button>
                             <div className='main_block__arrow'></div>
                         </div>
-
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
-
         </div>
 
     );
