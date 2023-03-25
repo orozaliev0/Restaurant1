@@ -437,4 +437,4 @@ const Main = () => {
     );
 };
 
-export default Mai
+export default Main;
