@@ -4,7 +4,7 @@
 
 #hero{
   background: url("img/hero-bg.jpg") no-repeat center/cover;
-  min-height: 100vh;
+  height: 720px;
   min-width: 100%;
   position: relative;
 }
@@ -95,27 +95,36 @@
         height: 2px;
         background: red;
       }.btn-bottom{
-        margin: 8px 0;
-        width: 150px;
-        height: 2px;
-        background: red;
-      }
+         margin: 8px 0;
+         width: 150px;
+         height: 2px;
+         background: red;
+       }
       .modal{
+        box-shadow: 0 2px 11px 4px rgba(229,229,229,0.25);
+        -webkit-box-shadow: 0 2px 11px 1px rgba(229,229,229,0.25);
+        -moz-box-shadow: 0 2px 11px 4px rgba(229,229,229,0.25);
+        position: absolute;
+        top: 200px;
         margin: 20px 0;
         width: 250px;
         height: 260px;
         background: #13202a;
         border-radius: 10px;
+        transform: translateX(400px);
+        animation: winn 0.7s ease-in-out;
+
         &-icon{
-          font-size: 40px;
-          background: white;
-          color: #0b1c26;
+          width: 30px;
+          height: 30px;
           border-radius: 50%;
         }
         &-top{
           display: flex;
           margin: 40px 5px 0 5px;
           &_left{
+            color: white;
+            font-size: 35px;
             padding: 0 10px;
           }
           &_right{
@@ -126,6 +135,7 @@
             }
             h4{
               color: #FFFFFF;
+              font-size: 13px;
               font-weight: 100;
             }
           }
@@ -136,7 +146,8 @@
         }
         &-btn{
           padding: 10px 15px;
-          button{
+          &--bbb{
+            cursor: pointer;
             font-family: 'Open Sans', sans-serif;
             padding: 15px 70px;
             border-radius: 5px;
@@ -144,6 +155,15 @@
             border: none;
             font-size: 17px;
           }
+
+        }
+      }
+      @keyframes winn {
+        0%{
+          transform: translateX(800px);
+        }
+        100%{
+          transform: translateX(400px);
         }
       }
     }
@@ -234,6 +254,7 @@
     }
   }
 }
+
 
 
 

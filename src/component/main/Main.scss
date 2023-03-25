@@ -1,5 +1,8 @@
 #main {
 
+.menu{
+  padding-bottom: 110px;
+}
   .block {
     display: flex;
     justify-content: center;
@@ -12,30 +15,40 @@
       font-size: 40px;
       color: #FFFFFF;
       padding: 10px 10px;
+      padding: 10px 20px;
     }
 
     &__vector {
       display: flex;
-      //align-items: center;
       flex-direction: column;
+
+      &_line{
+        margin-left: 10px;
+        padding-bottom: 2px;
+
+      }
+      &__bottom{
+        margin-right: 8.5px;
+        padding-bottom: 2px;
+      }
     }
+
   }
 
   h3 {
-    font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 600;
-    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+    font-size: 40px;
     text-align: center;
     color: #FFFFFF;
+    margin-bottom: -70px;
   }
 
   .main_block {
 
     .react-tabs {
-      //display: flex;
-      //align-items: center;
-      margin-left: 290px;
+      margin-left: 250px;
       outline: none;
 
     }
@@ -50,18 +63,26 @@
       color: white;
       font-size: 16px;
       height: 319px;
+      margin: 0;
+      padding: 0;
+      color: white;
+      font-size: 16px;
+      height: 315px;
       background: #1F2731;
     }
 
     .react-tabs__tab {
-      height: 10px;
       list-style: none;
-      padding: 25px 6px;
+      padding: 26px 0;
       cursor: pointer;
       div{
         border-bottom: 0.1px solid rgba(169, 168, 168, 0.86);
         width: 150px;
         margin: 15px auto;
+      .ttt{
+        border-bottom: 1px solid rgba(187, 184, 184, 0.86);
+        width: 190px;
+        margin: 14px auto;
       }
     }
 
@@ -78,10 +99,17 @@
       text-align: center;
     }
 
+    .react-tabs__tab {
+      p{
+        margin-top: -10px;
+      }
+    }
+
 
     .panel-content {
       margin-left: 50px;
       margin-top: 270px;
+      margin-top: 265px;
 
       &__block{
         display: flex;
@@ -94,6 +122,11 @@
         }
         div{
           width: 350px;
+          font-family: 'Playfair Display', serif;
+          font-size: 15px;
+        }
+        div{
+          width: 370px;
           border-bottom: 1px dashed white;
           margin: 0 10px;
         }
@@ -111,6 +144,18 @@
 
       p {
         font-family: 'Spartan',sans-serif;
+
+
+      h2{
+        font-family: 'Playfair Display', serif;
+        font-weight: 400;
+        font-size: 17px;
+        color: #FFFFFF;
+        margin-bottom: 12px;
+      }
+
+      p {
+        font-family: 'Inter', sans-serif;
         font-weight: 400;
         font-size: 12px;
         color: #a4a3a3;
@@ -146,6 +191,19 @@
         background: transparent;
         text-align: center;
         padding: 10px 20px;
+      margin: 10px 600px;
+      width: 120px;
+      height: 1px;
+      background: red;
+    }
+    &__btn{
+      margin-top: -17px;
+      button {
+        display: flex;
+        align-items: center;
+        margin-left: 580px;
+        background: transparent;
+        padding: 9px 20px;
         border: 1px solid red;
         color: white;
         cursor: pointer;
@@ -155,5 +213,6 @@
       }
     }
   }
+
 
 }

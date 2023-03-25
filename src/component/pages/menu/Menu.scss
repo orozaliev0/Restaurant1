@@ -11,7 +11,8 @@
   font-family: 'Inter', sans-serif;
   font-weight: 800;
   flex-direction: column;
-  width: 270px;
+  width: 280px;
+  height: 315px;
   margin: 40px;
   color: white;
   background: #1F2731;
@@ -24,6 +25,9 @@
   padding: 25px 6px;
   cursor: pointer;
 
+  p{
+    margin-top: -12px;
+  }
   .ttt {
     border-bottom: 1px solid white;
     width: 150px;
@@ -72,17 +76,23 @@
 
 .react-tabs__tab--selected {
   transition: .3s;
-  background: #810000;
+  background: #940202;
   border: none;
   outline: none;
   color: white;
-
 }
 
 .react-tabs__tab {
   text-align: center;
+  list-style: none;
+  padding: 26px 0;
+  cursor: pointer;
+  .ttt{
+    border-bottom: 1px solid rgba(187, 184, 184, 0.86);
+    width: 190px;
+    margin: 14px auto;
+  }
 }
-
 
 .panel-page {
   margin-left: 116px;
@@ -90,7 +100,8 @@
 
   &__img {
     background: white;
-    margin: 10px 13px;
+    padding-bottom: 9px;
+    margin: 10px 8px;
   }
   img {
     width: 270px;
@@ -102,6 +113,7 @@
     font-weight: 600;
     font-size: 14px;
     color: #1F2731;
+    margin-bottom: -10px;
     margin-left: 10px;
 
 
@@ -109,7 +121,7 @@
       color: red;
       font-family: 'Inter', sans-serif;
       font-size: 15px;
-      margin-left: 150px;
+      margin-left: 157px;
     }
   }
 
