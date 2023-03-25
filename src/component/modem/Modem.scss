@@ -1,10 +1,8 @@
 #modern{
   .modern {
     display: flex;
-    justify-content: center;
+    margin-left: 580px;
     align-items: center;
-    padding: 10px 0;
-    margin-top: 90px;
 
     h2 {
       font-family: 'Shalimar', sans-serif;
@@ -12,12 +10,22 @@
       font-weight: 400;
       font-size: 40px;
       color: #FFFFFF;
-      padding: 0 10px;
+      padding: 0 30px;
     }
 
     &__vector {
       display: flex;
       flex-direction: column;
+      &_line{
+        margin-left: 10px;
+        padding-bottom: 2px;
+
+      }
+      &__bottom{
+        margin-right: 8.5px;
+        padding-bottom: 2px;
+      }
+
     }
 
 
@@ -59,19 +67,15 @@
   }
 
   .img2 {
-    width: 533px;
-    height: 250px;
+    width: 537px;
+    height: 248px;
     margin-left:0;
-    padding-bottom: 15px;
+    padding-bottom: 17px;
   }
   .img5{
     margin-left: 110px;
-    //width: 520px;
-    //height: 490px;
     height: 488px;
     width: 426px;
-
-
   }
 }
 
