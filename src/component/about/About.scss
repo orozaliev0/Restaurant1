@@ -130,7 +130,7 @@
   #about .about--info h1{
     font-size: 40px;
     line-height: 61px;
-    padding: 20px 0 40px 0;
+    padding: 25px 0 45px 0;
   }
   #about .about--info p{
     font-size: 18px;
@@ -146,6 +146,79 @@
   }
   #about .containerAbout{
     width: 70%;
+  }
+
+}
+@media (max-width:576px) {
+  #about .about--img img {
+    width: 400px;
+    padding: 0 0 30px 0;
+  }
+  #about .about--us {
+    width: 37%;
+  }
+  #about .about--us h1 {
+    font-size: 30px;
+  }
+  #about .about--info h1 {
+    font-size: 30px;
+    line-height: 47px;
+    padding: 10px 0 30px 0;
+  }
+  #about .about--info p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  #about .about--img{
+    margin: 0 0;
+  }
+  #about .about--info {
+    padding: 13px 0 35px 0;
+  }
+  #about {
+    padding: 40px 0;
+  }
+
+}
+@media (max-width: 450px) {
+  #about .containerAbout{
+    width: 88%;
+  }
+
+}
+@media (max-width: 414px) {
+  #about .about--us {
+    width: 38%;
+  }
+  #about .about--img img {
+    width: 330px;
+    padding: 0 0 20px 0;
+  }
+  #about .about--info {
+    padding: 6px 0 20px 0;
+  }
+  #about .about--info h1 {
+    padding: 5px 0 20px 0;
+  }
+}
+@media (max-width: 400px) {
+  #about .about--us {
+    width: 42%;
+  }
+}
+@media (max-width: 360px) {
+  #about .about--img img {
+    width: 280px;
+    padding: 0 0 14px 0;
+  }
+
+}
+@media (max-width: 320px) {
+  #about .about--us {
+    width: 50%;
+  }
+  #about .about--img img {
+    width: 265px;
   }
 
 }
