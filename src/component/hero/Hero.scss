@@ -2,21 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital@1&family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=League+Spartan:wght@100&family=Lora:ital@1&family=Open+Sans:wght@300&display=swap');
 
-#hero{
+#hero {
   background: url("img/hero-bg.jpg") no-repeat center/cover;
   min-height: 100vh;
   min-width: 100%;
   position: relative;
 }
-*{
-  button{
+
+* {
+  button {
     cursor: pointer;
   }
 }
 
-.hero{
+.hero {
   position: relative;
-  .hero-hr1{
+
+  .hero-hr1 {
     position: absolute;
     width: 300px;
     height: 1px;
@@ -26,7 +28,8 @@
     left: -150px;
     bottom: 250px;
   }
-  .hero-hr2{
+
+  .hero-hr2 {
     position: absolute;
     width: 100%;
     height: 1px;
@@ -37,14 +40,14 @@
   }
 }
 
-.heroo{
+.heroo {
   padding: 180px 0 0 0;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 
-  h1{
+  h1 {
     font-family: 'Shalimar', cursive;
     font-weight: 400;
     font-size: 50px;
@@ -52,31 +55,36 @@
     padding: 0 20px;
   }
 
-  .heroo-title{
+  .heroo-title {
     display: flex;
     align-items: center;
     justify-content: center;
-    .vector-left{
+
+    .vector-left {
       display: flex;
       flex-direction: column;
       align-items: flex-end;
-      &-bottom{
+
+      &-bottom {
         margin: 4px 0;
       }
     }
-    .vector-right{
+
+    .vector-right {
       display: flex;
       flex-direction: column;
     }
   }
-  .heroo-nav{
-    h2{
+
+  .heroo-nav {
+    h2 {
       font-family: 'Open Sans', sans-serif;
       font-weight: 600;
       font-size: 64px;
       color: #FFFFFF;
     }
-    p{
+
+    p {
       padding: 40px 0;
       font-weight: 300;
       font-size: 16px;
@@ -84,59 +92,72 @@
       text-align: center;
       color: #FFFFFF;
     }
-    .hero-button{
+
+    .hero-button {
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      .btn-top{
-        margin: 8px 0;
-        width: 150px;
-        height: 2px;
-        background: red;
-      }.btn-bottom{
+
+      .btn-top {
         margin: 8px 0;
         width: 150px;
         height: 2px;
         background: red;
       }
-      .modal{
+
+      .btn-bottom {
+        margin: 8px 0;
+        width: 150px;
+        height: 2px;
+        background: red;
+      }
+
+      .modal {
         margin: 20px 0;
         width: 250px;
         height: 260px;
         background: #13202a;
         border-radius: 10px;
-        &-icon{
+
+        &-icon {
           font-size: 40px;
           background: white;
           color: #0b1c26;
           border-radius: 50%;
         }
-        &-top{
+
+        &-top {
           display: flex;
           margin: 40px 5px 0 5px;
-          &_left{
+
+          &_left {
             padding: 0 10px;
           }
-          &_right{
-            h6{
+
+          &_right {
+            h6 {
               color: #FFFFFF;
               font-weight: 100;
               padding: 0 0 5px 0;
             }
-            h4{
+
+            h4 {
               color: #FFFFFF;
               font-weight: 100;
             }
           }
         }
-        &-bottom{
+
+        &-bottom {
           display: flex;
           margin: 20px 5px;
         }
-        &-btn{
+
+        &-btn {
           padding: 10px 15px;
-          button{
+
+          button {
             font-family: 'Open Sans', sans-serif;
             padding: 15px 70px;
             border-radius: 5px;
@@ -147,7 +168,8 @@
         }
       }
     }
-    button{
+
+    button {
       padding: 7px 40px;
       display: flex;
       align-items: center;
@@ -160,7 +182,8 @@
       background: transparent;
       outline: none;
       border: 3px solid red;
-      .hero-right{
+
+      .hero-right {
         font-size: 30px;
         padding-left: 10px;
         color: white;
@@ -169,33 +192,38 @@
   }
 }
 
-.hero-bottom{
+.hero-bottom {
   position: relative;
   padding: 100px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  .hero-bottom-left{
+
+  .hero-bottom-left {
     display: flex;
     align-items: center;
-    h3{
+
+    h3 {
       font-weight: 600;
       font-size: 14px;
       text-transform: capitalize;
       color: #FFFFFF;
       padding: 0 15px;
     }
-    hr{
+
+    hr {
       width: 50px;
       height: 1px;
     }
-    .hero-location{
+
+    .hero-location {
       color: red;
       font-size: 30px;
       z-index: 2;
       margin: 0 10px;
     }
-    h6{
+
+    h6 {
       font-weight: 500;
       font-size: 12px;
       line-height: 13px;
@@ -204,27 +232,32 @@
       opacity: 0.8;
     }
   }
-  .hero-bottom-right{
+
+  .hero-bottom-right {
     display: flex;
-    display: flex;
+
     align-items: center;
-    h3{
+
+    h3 {
       font-weight: 600;
       font-size: 14px;
       text-transform: capitalize;
       color: #FFFFFF;
       padding: 0 15px;
     }
-    hr{
+
+    hr {
       width: 50px;
       height: 1px;
     }
-    .hero-phone{
+
+    .hero-phone {
       color: red;
       font-size: 25px;
       margin: 0 20px;
     }
-    h6{
+
+    h6 {
       font-weight: 500;
       font-size: 12px;
       line-height: 13px;
