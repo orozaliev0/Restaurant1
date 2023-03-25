@@ -5,7 +5,8 @@
   .input .icon {
     left: 52px;
   }
-}@media  (max-width: 1240px){
+}
+@media  (max-width: 1240px){
   .header-title input {
     width: 157px;
   }
@@ -23,9 +24,6 @@
     left: 29px;
   }
 }
-
-
-
 @media  (max-width: 1024px){
   .header-title input {
     width: 123px;
@@ -42,7 +40,6 @@
     display: block;
   }
 }
-
 @media (max-width: 800px) {
   .heroo .heroo-nav button {
     padding: 3px 32px;
