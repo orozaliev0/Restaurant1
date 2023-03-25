@@ -39,7 +39,7 @@ const Contact = () => {
         alignItems: "center",
         margin: "10px 0 5px 45px",
     }}/>
-    <button className="contact--text__btn">Purchase gift card <BsArrowRightShort/></button>
+    <button className="contact--text__btn">Purchase gift card <BsArrowRightShort className="contact--text__icon"/></button>
     <hr style={{
         width:  "130px",
         height: "1px",
@@ -54,8 +54,10 @@ const Contact = () => {
                             <h3>Contact Info</h3>
                             <a href=""><b><BsFillTelephoneOutboundFill/></b>+771219900</a> <br/>
                             <a href=""><b><HiOutlineMailOpen/></b>motionweb312@gmail.com</a> <br/>
-                            <a className="contact__maps--a" href="https://t.me/Motion web"><BsTelegram/></a>
-                            <a className="contact__maps--a" href="https://instagram.com/motion_web?igshid=YmMyMTA2M2Y="><BsInstagram/></a>
+                            <div className="contact__maps--group__title">
+                                <a className="contact__maps--a" href="https://t.me/Motion web"><BsTelegram/></a>
+                                <a className="contact__maps--a" href="https://instagram.com/motion_web?igshid=YmMyMTA2M2Y="><BsInstagram/></a>
+                            </div>
                         </div>
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2196.8549415310567!2d74.58520831303298!3d42.880102918608614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389ec81915eaf75d%3A0x9bfedde3851dcd21!2sMaximum!5e0!3m2!1sru!2skg!4v1679570014068!5m2!1sru!2skg"
