@@ -69,7 +69,7 @@ const Hero = () => {
                                         </div>
                                     </div>
                                     <div className="modal-btn">
-                                        <button>Сontact</button>
+                                        <button className="modal-btn--bbb" onClick={() => setModal(!modal)}>Сontact</button>
                                     </div>
                                 </div>
                                 <div className="btn-bottom"></div>
