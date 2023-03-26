@@ -93,19 +93,22 @@
       margin-top: 265px;
 
       &__block {
+
+
         display: flex;
-        align-items: center;
 
         span {
           color: red;
           font-family: 'Playfair Display', serif;
-          font-size: 15px;
+          font-size: 14px;
+
         }
 
         div {
           width: 370px;
           border-bottom: 1px dashed white;
-          margin: 0 10px;
+          margin: 0 21px;
+          margin-bottom: 17px;
         }
       }
 
@@ -129,7 +132,7 @@
         font-weight: 100;
         font-size: 10px;
         color: #FFFFFF;
-        margin-left: 460px;
+        margin-left: 480px;
         width: 50px;
         padding: 5px 0;
         text-align: center;
@@ -166,3 +169,197 @@
   }
 
 }
+
+@media (max-width: 1440px) {
+
+  #modern .img2 {
+    width: 497px;
+    padding-bottom: 13px;
+  }
+  #modern .block {
+    margin-left: 150px;
+  }
+  #modern .img5 {
+    margin-left: 147px;
+  }
+
+  #main .main_block .react-tabs {
+    margin-left: 199px;
+  }
+
+}
+
+@media (max-width: 1200px) {
+
+  #modern .slider-item {
+    padding-left: 118px;
+  }
+  #modern .block {
+    margin-left: 88px;
+  }
+  #modern .block img {
+    width: 236px;
+  }
+  #modern .line {
+    opacity: 0.5;
+    left: 99px;
+  }
+  #main .main_block .react-tabs {
+    margin-left: 89px;
+  }
+  .slick-slide img {
+    width: 337px;
+    height: 487px;
+  }
+  #modern .block {
+    margin-left: 216px;
+  }
+  #modern .img2 {
+    width: 453px;
+  }
+  #modern .block {
+    margin-left: 28px;
+  }
+  #modern .img5 {
+    margin-left: 128px;
+  }
+  #modern .block {
+    margin-left: 121px;
+  }
+
+}
+
+@media (max-width: 1024px) {
+  #main .main_block .react-tabs {
+    margin-left: 66px;
+    outline: none;
+  }
+  #main .main_block__btn button {
+    margin-left: 413px;
+  }
+  #main .main_block__arrow {
+    margin: 10px 432px;
+  }
+  #modern .line {
+    opacity: 0.5;
+    left: 93px;
+  }
+  #modern .slider-item {
+    padding-left: 107px;
+  }
+  .slick-slide img {
+    width: 289px;
+  }
+  #modern .img2 {
+    width: 402px;
+  }
+  #modern .modern {
+    margin-left: 362px;
+  }
+
+}
+
+@media (max-width: 992px) {
+  #main .main_block .react-tabs {
+    margin-left: 29px;
+  }
+}
+
+@media (max-width: 768px) {
+  #main .main_block .panel-content {
+    display: none;
+  }
+  #main .main_block .react-tabs {
+    margin-left: 180px;
+  }
+  #main .main_block__btn button {
+    margin-left: 226px;
+  }
+  #main .main_block__arrow {
+    margin: 8px 248px;
+  }
+  .react-tabs {
+    margin-bottom: -58px;
+  }
+
+}
+
+@media (max-width: 576px) {
+  #main .main_block .react-tabs {
+    margin-left: 121px;
+  }
+  #main .main_block__btn button {
+    margin-left: 169px;
+  }
+  #main .main_block__arrow {
+    margin: 8px 189px;
+  }
+
+
+}
+
+@media (max-width: 451px) {
+  #main .main_block .react-tabs {
+    margin-left: 67px;
+    margin-bottom: -58px;
+  }
+  #main .main_block__btn button {
+    margin-left: 121px;
+  }
+  #main .main_block__arrow {
+    margin: 8px 141px;
+  }
+
+}
+
+@media (max-width: 400px) {
+  #main .main_block .react-tabs {
+    margin-left: 42px;
+    margin-bottom: -61px;
+  }
+  #main .main_block__btn button {
+    margin-left: 107px;
+  }
+  #main .main_block__arrow {
+    margin: 8px 125px;
+  }
+
+}
+
+@media (max-width: 376px) {
+  #main .main_block .react-tabs {
+    margin-left: 27px;
+    margin-bottom: -62px;
+  }
+  #main .main_block__btn button {
+    margin-left: 87px;
+  }
+  #main .main_block__arrow {
+    margin: 8px 106px;
+  }
+}
+
+@media (max-width: 351px) {
+  .react-tabs__tab--selected .dd {
+    display: none;
+  }
+  #main .main_block .react-tabs {
+    margin-left: 17px;
+    margin-bottom: -63px;
+  }
+  #main .main_block__btn button {
+    margin-left: 73px;
+  }
+  #main .main_block__arrow {
+    margin: 8px 92px;
+  }
+}
+
+@media (max-width: 320px) {
+  #main .main_block .react-tabs {
+    margin-left: 7px;
+    margin-bottom: -71px;
+  }
+
+}
+

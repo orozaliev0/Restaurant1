@@ -27,6 +27,7 @@ const Menu = () => {
 
         <div className='menu'>
 
+        <div className="tab">
             <Tabs>
                 <TabList>
                     <Tab>
@@ -326,6 +327,308 @@ const Menu = () => {
                 </TabPanel>
 
             </Tabs>
+        </div>
+            <div className="tab_new">
+                <Tabs>
+                    <TabList>
+                        <Tab>
+                            <div className='dd' style={{width: "50px"}}></div>
+                            <p>wertyui</p>
+                            <div className="ttt"></div>
+                        </Tab>
+                        <Tab>
+                            <div className='dd' style={{width: "50px"}}></div>
+                            <p>Hot Drinks</p>
+                            <div className="ttt"></div>
+                        </Tab>
+                        <Tab>
+                            <div className='dd' style={{width: "50px"}}></div>
+                            <p>Cold Drinks</p>
+                            <div className="ttt"></div>
+                        </Tab>
+                        <Tab>
+                            <div className='dd' style={{width: "50px"}}></div>
+                            <p>National Foods</p>
+                            <div className="ttt"></div>
+                        </Tab>
+                        <Tab>
+                            <div className='dd' style={{width: "50px"}}></div>
+                            <p>Eastern cuisine</p>
+                            <div className="ttt"></div>
+                        </Tab>
+                        <Tab>
+                            <div className='dd' style={{width: "50px"}}></div>
+                            <p>Fast foods</p>
+                            <div className="ttt"></div>
+                        </Tab>
+                    </TabList>
+
+                    <TabPanel>
+                        <div className="panel-page">
+
+                            <div style={{
+                                display: "flex",
+                            }}>
+                                <div className='panel-page__img'>
+                                    <NavLink to={"/menu/detail-page"}>
+                                        <img src={pageImg1} alt=""/>
+                                    </NavLink>
+                                    <h2>Ice Cream <span>$24</span></h2>
+                                    <p>soda,cream,milk,sugar</p>
+                                </div>
+
+
+                                <div className='panel-page__img'>
+                                    <img src={pageImg2} alt=""/>
+                                    <h2>Ice Cream
+                                        <span>$24</span>
+                                    </h2>
+                                    <p>soda,cream,milk,sugar</p>
+                                </div>
+
+                            </div>
+
+
+                            <div style={{
+                                display: "flex"
+                            }}>
+                                <div className='panel-page__img'>
+                                    <img src={pageImg3} alt=""/>
+                                    <h2>Ice Cream
+                                        <span>$24</span>
+                                    </h2>
+                                    <p>soda,cream,milk,sugar</p>
+                                </div>
+
+                                <div className='panel-page__img'>
+                                    <img src={pageImg4} alt=""/>
+                                    <h2>Ice Cream
+                                        <span>$24</span>
+                                    </h2>
+                                    <p>soda,cream,milk,sugar</p>
+                                </div>
+
+                            </div>
+
+
+                            <div style={{
+                                display: "flex"
+                            }}>
+                                <div className='panel-page__img'>
+                                    <img src={pageImg5} alt=""/>
+                                    <h2>Ice Cream
+                                        <span>$24</span>
+                                    </h2>
+                                    <p>soda,cream,milk,sugar</p>
+                                </div>
+
+                                <div className='panel-page__img'>
+                                    <img src={pageImg6} alt=""/>
+                                    <h2>Ice Cream
+                                        <span>$24</span>
+                                    </h2>
+                                    <p>soda,cream,milk,sugar</p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </TabPanel>
+
+                    <TabPanel>
+                        <div className="panel-page">
+                            <div style={{
+                                display: "flex"
+                            }}>
+                                <div className='panel-page__img'>
+                                    <img src={Hot_Drinks} alt=""/>
+                                    <h2>Hot Drinks
+                                        <span>$24</span>
+                                    </h2>
+                                    <p>soda,cream,milk,sugar</p>
+                                </div>
+                                <div className='panel-page__img'>
+                                    <img src={drinks} alt=""/>
+                                    <h2>Hot Drinks
+                                        <span>$24</span>
+                                    </h2>
+                                    <p>soda,cream,milk,sugar</p>
+                                </div>
+                            </div>
+
+                            <div style={{
+                                display: "flex"
+                            }}>
+                                <div className='panel-page__img'>
+                                    <img src={drinks} alt=""/>
+                                    <h2>Hot Drinks
+                                        <span>$24</span>
+                                    </h2>
+                                    <p>soda,cream,milk,sugar</p>
+                                </div>
+                                <div className='panel-page__img'>
+                                    <img src={Hot_Drinks} alt=""/>
+                                    <h2>Hot Drinks
+                                        <span>$24</span>
+                                    </h2>
+                                    <p>soda,cream,milk,sugar</p>
+                                </div>
+                            </div>
+                        </div>
+                    </TabPanel>
+
+                    <TabPanel>
+                        <div className="panel-page">
+                            <div style={{
+                                display: "flex"
+                            }}>
+                                <div className='panel-page__img'>
+                                    <img src={Cold_Drinks} alt=""/>
+                                    <h2>Cold DrinksI
+                                        <span>$24</span>
+                                    </h2>
+                                    <p>soda,cream,milk,sugar</p>
+                                </div>
+                                <div className='panel-page__img'>
+                                    <img src={Cold_DrinksI} alt=""/>
+                                    <h2>Cold DrinksI
+                                        <span>$24</span>
+                                    </h2>
+                                    <p>soda,cream,milk,sugar</p>
+                                </div>
+                            </div>
+
+                            <div style={{
+                                display: "flex"
+                            }}>
+                                <div className='panel-page__img'>
+                                    <img src={Cold_DrinksI} alt=""/>
+                                    <h2>Cold DrinksI
+                                        <span>$24</span>
+                                    </h2>
+                                    <p>soda,cream,milk,sugar</p>
+                                </div>
+                                <div className='panel-page__img'>
+                                    <img src={Cold_Drinks} alt=""/>
+                                    <h2>Cold DrinksI
+                                        <span>$24</span>
+                                    </h2>
+                                    <p>soda,cream,milk,sugar</p>
+                                </div>
+                            </div>
+                        </div>
+                    </TabPanel>
+
+                    <TabPanel>
+                        <div className="panel-page">
+                            <div style={{
+                                display: "flex"
+                            }}>
+                                <div className='panel-page__img'>
+                                    <img src={National_Foods} alt=""/>
+                                    <h2> Foods
+                                        <span>$24</span>
+                                    </h2>
+                                    <p>soda,cream,milk,sugar</p>
+                                </div>
+                                <div className='panel-page__img'>
+                                    <img src={pizza} alt=""/>
+                                    <h2>pizza
+                                        <span>$24</span>
+                                    </h2>
+                                    <p>soda,cream,milk,sugar</p>
+                                </div>
+                            </div>
+                            <div style={{
+                                display: "flex"
+                            }}>
+                                <div className='panel-page__img'>
+                                    <img src={pizza} alt=""/>
+                                    <h2>pizza
+                                        <span>$24</span>
+                                    </h2>
+                                    <p>soda,cream,milk,sugar</p>
+                                </div>
+                                <div className='panel-page__img'>
+                                    <img src={National_Foods} alt=""/>
+                                    <h2>Foods
+                                        <span>$24</span>
+                                    </h2>
+                                    <p>soda,cream,milk,sugar</p>
+                                </div>
+                            </div>
+                        </div>
+                    </TabPanel>
+
+                    <TabPanel>
+                        <div className="panel-page">
+
+                            <div style={{
+                                display: "flex"
+                            }}>
+                                <div className='panel-page__img'>
+                                    <img src={cuisine} alt=""/>
+                                    <h2>cuisine
+                                        <span>$24</span>
+                                    </h2>
+                                    <p>soda,cream,milk,sugar</p>
+                                </div>
+
+                                <div className='panel-page__img'>
+                                    <img src={food} alt=""/>
+                                    <h2>cuisine
+                                        <span>$24</span>
+                                    </h2>
+                                    <p>soda,cream,milk,sugar</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </TabPanel>
+
+                    <TabPanel>
+                        <div className="panel-page">
+                            <div style={{
+                                display: "flex"
+                            }}>
+                                <div className='panel-page__img'>
+                                    <img src={Fast_foods} alt=""/>
+                                    <h2>Fast foods
+                                        <span>$24</span>
+                                    </h2>
+                                    <p>soda,cream,milk,sugar</p>
+                                </div>
+                                <div className='panel-page__img'>
+                                    <img src={Fast_foods2} alt=""/>
+                                    <h2>Fast foods
+                                        <span>$24</span>
+                                    </h2>
+                                    <p>soda,cream,milk,sugar</p>
+                                </div>
+                            </div>
+                            <div style={{
+                                display: "flex"
+                            }}>
+                                <div className='panel-page__img'>
+                                    <img src={Fast_foods2} alt=""/>
+                                    <h2>Fast foods
+                                        <span>$24</span>
+                                    </h2>
+                                    <p>soda,cream,milk,sugar</p>
+                                </div>
+                                <div className='panel-page__img'>
+                                    <img src={Fast_foods} alt=""/>
+                                    <h2>Fast foods
+                                        <span>$24</span>
+                                    </h2>
+                                    <p>soda,cream,milk,sugar</p>
+                                </div>
+                            </div>
+                        </div>
+                    </TabPanel>
+
+                </Tabs>
+            </div>
 
 
 
