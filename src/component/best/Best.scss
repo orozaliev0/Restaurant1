@@ -67,11 +67,11 @@
 }
 
 @media (max-width: 1200px) {
-  .containerAbout {
-    width: 86%;
-  }
   .slick-slide img {
     width: 235px;
+  }
+  .containerAbout {
+    width: 86%;
   }
   #bestSeller .best{
     width: 92%;
@@ -167,15 +167,12 @@
     font-size: 30px;
   }
   #bestSeller .best--title__first {
-    width: 43%;
+    width: 51%;
   }
 }
 @media (max-width: 450px) {
   #bestSeller .containerAbout{
     width: 88%;
-  }
-  #bestSeller .best--title__first {
-    width: 43%;
   }
 }
 @media (max-width: 414px) {
@@ -186,11 +183,6 @@
     width: 165px;
   }
 
-}
-@media (max-width: 400px) {
-  #bestSeller .best--title__first {
-    width: 46%;
-  }
 }
 @media (max-width: 390px) {
   .slick-slide img {
