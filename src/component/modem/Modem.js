@@ -15,47 +15,34 @@ const Modem = () => {
             <div className="container">
                 <div className="line"/>
                 <div className="modern--text">
-                    <div className="modern--text__block">
-                        <img src={Vector} alt="" className="modern--text__block--img"/>
-                        <img src={Line} alt="" className="modern--text__block--line"/>
-                    </div>
+                    <div className="modern--text__block"><img src={Vector} alt="" className="modern--text__block--img"/>
+                        <img src={Line} alt="" className="modern--text__block--line"/></div>
                     <h1 className="modern--text__title">Modern Interior</h1>
-                    <div className="modern--text__block">
-                        <img src={Vector1} alt="" className="modern--text__block--img"/>
-                        <img src={Line} alt="" className="modern--text__block--line"/>
+                    <div className="modern--text__block"><img src={Vector1} alt=""
+                                                              className="modern--text__block--img"/> <img src={Line}
+                                                                                                          alt="" className="modern--text__block--line"/>
                     </div>
                 </div>
+
                 <div className="modern">
-                    <div className="modern--img">
-                        <img src={img1} alt=""/>
+                    <div className="modern--img"><img src={img1} alt="" className='modern--img-img1'/></div>
+                    <div className="modern--image"><img src={img2} alt="" className='modern--image2'/>
+                        <div className="modern--image__fon"><img src={img3} alt="" className='modern--image__fon3'/> <img src={img4} alt="" className='modern--image__fon4'/></div>
                     </div>
-                    <div className="modern--image">
-                        <img src={img2} alt=""/>
-                        <div className="modern--image__fon">
-                            <img src={img3} alt=""/>
-                            <img src={img4} alt=""/>
-                        </div>
+                    <div className="modern--img"><img src={img5} alt="" className='modern--img5'/></div>
+
+
+
+                    <div className="modern--img"><img src={img1} alt="" className='modern--img-img1'/></div>
+                    <div className="modern--image"><img src={img2} alt="" className='modern--image2'/>
+                        <div className="modern--image__fon"><img src={img3} alt="" className='modern--image__fon3'/> <img src={img4} alt="" className='modern--image__fon4'/></div>
                     </div>
-                    <div className="modern--img">
-                        <img src={img5} alt=""/>
-                    </div>
-                    <div className="modern--img">
-                        <img src={img1} alt=""/>
-                    </div>
-                    <div className="modern--image">
-                        <img src={img2} alt=""/>
-                        <div className="modern--image__fon">
-                            <img src={img3} alt=""/>
-                            <img src={img4} alt=""/>
-                        </div>
-                    </div>
-                    <div className="modern--img">
-                        <img src={img5} alt=""/>
-                    </div>
+                    <div className="modern--img"><img src={img5} alt="" className='modern--img5'/></div>
+
+
                 </div>
             </div>
         </section>
     );
 };
-
-export default Modem;
+export default Modem

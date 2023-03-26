@@ -173,7 +173,27 @@ act-tabs {
   //  }
   //}
 
+@media (max-width: 1440px) {
 
+
+  .react-tabs {
+    margin-left: 199px;
+  }
+
+}
+
+@media (max-width: 1200px) {
+
+  .react-tabs {
+    margin-left: 89px;
+  }
+
+}
+
+@media (max-width: 1024px) {
+  .react-tabs {
+    margin-left: 66px;
+    outline: none;
   @media (max-width: 768px) {
     .tab {
       display: none;
@@ -319,7 +339,9 @@ act-tabs {
 
 
   }
+
   .react-tabs {
+    margin-left: 23px;
     flex-direction: column;
     &__tab{
 
@@ -370,22 +392,23 @@ act-tabs {
   #footer{
     display: none;
   }
-  //.react-tabs__tab-list {
-  //  display: flex;
-  //  flex-direction: inherit;
-  //  font-weight: 400;
-  //  width: 280px;
-  //  height: 378px;
-  //  margin: -114px;
-  //  color: white;
-  //  background: transparent;
-  //}
-  .react-tabs__tab--selected .dd {
-    display: none;
+  .react-tabs__tab-panel {
+    margin-left: -92px;
   }
-  .react-tabs__tab .ttt {
-    display: none;
+}
+
+@media (max-width: 992px) {
+  .react-tabs {
+    margin-left: 29px;
   }
+  .react-tabs__tab-list {
+    width: 253px;
+  }
+  .dd {
+    left: 227px;
+  }
+}
+
   //.react-tabs__tab--selected {
   //  width: 133px;
   //}
