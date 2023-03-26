@@ -85,6 +85,7 @@ const Modem = () => {
                                     <img src={img4} alt="" className='img'/>
                                 </div>
                             </div>
+
                             <div>
                                 <img src={img5} alt="" className='img5'/>
                             </div>
@@ -107,19 +108,12 @@ const Modem = () => {
 
                         </Slider>
                     </div>
-                    '
+
 
                 </div>
             </div>
 
         </>
-
-
-
-
-
-
-
     );
 };
 
