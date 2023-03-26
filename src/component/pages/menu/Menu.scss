@@ -138,143 +138,93 @@
 .tab_new{
   display: none;
 }
-//
-//@media (max-width: 1440px) {
-//
-//
-//  .react-tabs {
-//    margin-left: 199px;
-//  }
-//
-//}
-//
-//@media (max-width: 1200px) {
-//
-//  .react-tabs {
-//    margin-left: 89px;
-//  }
-//
-//}
-//
-//@media (max-width: 1024px) {
-//  .react-tabs {
-//    margin-left: 66px;
-//    outline: none;
-//  }
-//  //.react-tabs__tab-panel react-tabs__tab-panel--selected{
-//  //  margin-left: -62px;
-//  //}
-//  .react-tabs {
-//    margin-left: 23px;
-//  }
-//  .react-tabs__tab-panel {
-//    margin-left: -92px;
-//  }
-//}
-//
-//@media (max-width: 992px) {
-//  .react-tabs {
-//    margin-left: 29px;
-//  }
-//  .react-tabs__tab-list {
-//    width: 253px;
-//  }
-//  .dd {
-//    left: 227px;
-//  }
-//}
+act-tabs {
+  //    margin-left: 89px;
+  //  }
+  //
+  //}
+  //
+  //@media (max-width: 1024px) {
+  //  .react-tabs {
+  //    margin-left: 66px;
+  //    outline: none;
+  //  }
+  //  //.react-tabs__tab-panel react-tabs__tab-panel--selected{
+  //  //  margin-left: -62px;
+  //  //}
+  //  .react-tabs {
+  //    margin-left: 23px;
+  //  }
+  //  .react-tabs__tab-panel {
+  //    margin-left: -92px;
+  //  }
+  //}
+  //
+  //@media (max-width: 992px) {
+  //  .react-tabs {
+  //    margin-left: 29px;
+  //  }
+  //  .react-tabs__tab-list {
+  //    width: 253px;
+  //  }
+  //  .dd {
+  //    left: 227px;
+  //  }
+  //}
 
 
-@media (max-width: 768px) {
-  .tab{
-    display: none;
-  }
-  .tab_new{
-    display: block;
-  }
-  .panel-page {
-    display: none;
-  }
-  .react-tabs {
-    margin-left: 180px;
-    margin-bottom: -58px;
-  }
-  //.react-tabs__tab-list {
-  //  display: flex;
-  //  flex-direction: inherit;
-  //  font-weight: 400;
-  //  width: 280px;
-  //  height: 378px;
-  //  margin: -114px;
-  //  color: white;
-  //  background: transparent;
-  //}
-  .react-tabs__tab--selected .dd {
-    display: none;
-  }
-  .react-tabs__tab .ttt {
-    display: none;
-  }
-  //.react-tabs__tab--selected {
-  //  width: 133px;
-  //}
-  .react-tabs__tab-list {
-    width: 144px;
+  @media (max-width: 768px) {
+    .tab {
+      display: none;
+    }
+    .tab_new {
+      display: block;
+    }
+    .panel-page {
+      display: none;
+    }
+    .react-tabs {
+      margin-left: 180px;
+      margin-bottom: -58px;
+    }
+    //.react-tabs__tab-list {
+    //  display: flex;
+    //  flex-direction: inherit;
+    //  font-weight: 400;
+    //  width: 280px;
+    //  height: 378px;
+    //  margin: -114px;
+    //  color: white;
+    //  background: transparent;
+    //}
+    .react-tabs__tab--selected .dd {
+      display: none;
+    }
+    .react-tabs__tab .ttt {
+      display: none;
+    }
+    //.react-tabs__tab--selected {
+    //  width: 133px;
+    //}
+    .react-tabs__tab-list {
+      width: 144px;
+    }
   }
 }
 
+  @media(max-width: 1200px){
+    .react-tabs {
+      margin-left: 20px;
+    }
+  }
+@media (max-width: 1024px) {
+  .panel-page {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 992px) {
+  .panel-page {
+    margin-left: 0;
+  }
+}
 
-
-//@media (max-width: 576px) {
-//  //.react-tabs {
-//  //  margin-left: 121px;
-//  //}
-//
-//
-//}
-//
-//@media (max-width: 451px) {
-//  //.react-tabs {
-//  //  margin-left: 67px;
-//  //  margin-bottom: -58px;
-//  //}
-//
-//
-//}
-//
-//@media (max-width: 400px) {
-//  //.react-tabs {
-//  //  margin-left: 42px;
-//  //  margin-bottom: -61px;
-//  //}
-//
-//
-//}
-//
-//@media (max-width: 376px) {
-//  //.react-tabs {
-//  //  margin-left: 27px;
-//  //  margin-bottom: -62px;
-//  //}
-//
-//}
-//
-//@media (max-width: 351px) {
-//  //.react-tabs__tab--selected .dd {
-//  //  display: none;
-//  //}
-//  //.react-tabs {
-//  //  margin-left: 17px;
-//  //  margin-bottom: -63px;
-//  //}
-//
-//}
-//
-//@media (max-width: 320px) {
-//  //#main .main_block .react-tabs {
-//  //  margin-left: 7px;
-//  //  margin-bottom: -71px;
-//  //}
-//
-//}
-//
