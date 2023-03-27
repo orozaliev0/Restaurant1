@@ -19,7 +19,6 @@
 
 }
 
-
 .react-tabs__tab-list {
   font-family: "Inter", sans-serif;
   font-weight: 800;
@@ -32,11 +31,6 @@
 }
 
 .react-tabs__tab--selected {
-  //transition: .3s;
-  //background: #810000;
-  //border: none;
-  //outline: none;
-  //color: white;
   .dd {
     display: block;
   }
@@ -54,11 +48,6 @@
 
 }
 
-.react-tabs__tab {
-  //text-align: center;
-}
-
-
 .panel-page {
   margin-left: -60px;
   margin-top: 50px;
@@ -73,25 +62,12 @@
     margin: 50px 0 10px 0;
   }
 
-  &__img {
-    //background: white;
-    //margin: 7px 5px;
-  }
 
   &__img2 {
-    //background: #1F2731;
-    //padding: 0 0 20px 0;
-    //margin: 50px 5px;
-
     &__img4 {
       padding: 0 20px;
     }
   }
-
-  //panel--page__img2{
-  //  background: red;
-  //
-  //}56
 
   h2 {
     font-family: 'Spartan', sans-serif;
@@ -120,13 +96,11 @@
 
 }
 
-.menu {
-  //height: 100vh;
-  //margin: 100px 0;
+.menuDetail {
   padding-bottom: 200px;
 }
 
-.menu--svg {
+.menuDetail--svg {
   position: absolute;
   top: 90px;
   left: 30px;
@@ -136,7 +110,6 @@
   background: #1F2731;
   padding: 0 0 7px 0;
 }
-
 
 .panel-page__img4 {
   padding: 7px 20px;
@@ -194,6 +167,10 @@
     }
   }
 }
+
+
+
+
 
 
 .containerD{
@@ -305,7 +282,7 @@
 
 
 @media(max-width: 768px) {
-  .menu {
+  .menuDetail {
     display: none;
   }
   #changeMenu {

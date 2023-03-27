@@ -28,10 +28,10 @@ const Menu = () => {
 
     return (
 
-        <div className='menu'>
-            <div className="menu--bottom">
-                <div className="menu--bottom__left">
-                    <div className="menu--bottom__left--vectors">
+        <div className='menuMenu'>
+            <div className="menuMenu--bottom">
+                <div className="menuMenu--bottom__left">
+                    <div className="menuMenu--bottom__left--vectors">
                         <img style={{
                         width: "80px",
                             margin: "10px 0"
@@ -42,8 +42,11 @@ const Menu = () => {
                     </div>
                     <h3>Menu</h3>
                 </div>
-                <div className="menu--bottom__right">
-                    <BsSearch className="menu--bottom__right--icon"/>
+                <div className="menuMenu--bottom__right">
+                    <NavLink to={'/menu/search-page'}>
+                        <BsSearch className="menuMenu--bottom__right--icon"/>
+                    </NavLink>
+
                 </div>
             </div>
         <div className="tab">
@@ -381,6 +384,7 @@ const Menu = () => {
                             <div className="ttt"></div>
                         </Tab>
                     </TabList>
+
                     <TabPanel>
                         <div className="panel-page">
 
@@ -600,6 +604,12 @@ const Menu = () => {
                     </TabPanel>
 
                 </Tabs>
+
+
+                <div>
+
+
+                </div>
             </div>
 
 

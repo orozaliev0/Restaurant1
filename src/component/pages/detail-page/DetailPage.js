@@ -26,10 +26,10 @@ const DetailPage = () => {
     return (
 
         <div>
-            <div className='menu'>
+            <div className='menuDetail'>
 
                 <Link to={"/menu"}>
-                    <img src={x} alt="" className='menu--svg'/>
+                    <img src={x} alt="" className='menuDetail--svg'/>
                 </Link>
 
 
