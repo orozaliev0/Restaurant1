@@ -48,7 +48,7 @@
     }
 
     &-slide {
-      width: 52%;
+      width: 53%;
 
       .slick-slider {
         width: 100%;
@@ -71,7 +71,7 @@
     width: 235px;
   }
   .containerAbout {
-    width: 86%;
+    width: 85%;
   }
   #bestSeller .best{
     width: 92%;
@@ -89,6 +89,9 @@
   }
   #bestSeller .best--title__info h1 {
     font-size: 36px;
+  }
+  .slick-slide img {
+    width: 228px;
   }
 }
 @media (max-width: 1024px) {
@@ -112,6 +115,9 @@
 @media (max-width: 992px) {
   #bestSeller .best {
     width: 97%;
+  }
+  .slick-slide img {
+    width: 208px;
   }
 
 }

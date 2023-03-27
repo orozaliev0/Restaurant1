@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   margin-left: 160px;
-  height: 500px;
+  height: 520px;
   outline: none;
   margin-bottom: 200px;
 }
@@ -38,21 +38,11 @@
   }
 }
 
-
 .react-tabs__tab--selected {
   .dd {
     display: block;
   }
-
 }
-
-
-//.react-tabs__tab div {
-//  border-bottom: 1px solid white;
-//  width: 150px;
-//  opacity: 0.2;
-//}
-
 
 .dd {
   position: absolute;
@@ -65,11 +55,6 @@
   display: none;
 
 }
-
-.react-tabs {
-  margin-left: 0;
-}
-
 
 .react-tabs__tab--selected {
   transition: .3s;
@@ -135,161 +120,24 @@
 
 }
 
-
-.tab_new{
-  display: none;
+.menuMenu {
+  margin-top: 70px;
+  padding-bottom: 150px;
 }
-//
-//@media (max-width: 1440px) {
-//
-//
-//  .react-tabs {
-//    margin-left: 199px;
-//  }
-//
-//}
-//
-//@media (max-width: 1200px) {
-//
-//  .react-tabs {
-//    margin-left: 89px;
-//  }
-//
-//}
-//
-//@media (max-width: 1024px) {
-//  .react-tabs {
-//    margin-left: 66px;
-//    outline: none;
-//  }
-//  //.react-tabs__tab-panel react-tabs__tab-panel--selected{
-//  //  margin-left: -62px;
-//  //}
-//  .react-tabs {
-//    margin-left: 23px;
-//  }
-//  .react-tabs__tab-panel {
-//    margin-left: -92px;
-//  }
-//}
-//
-//@media (max-width: 992px) {
-//  .react-tabs {
-//    margin-left: 29px;
-//  }
-//  .react-tabs__tab-list {
-//    width: 253px;
-//  }
-//  .dd {
-//    left: 227px;
-//  }
-//}
 
-
-@media (max-width: 768px) {
-  ::-webkit-scrollbar{
-    width: 0;
-  }
-#menu{
-  .tab_tab{
-    display: flex;
-    width: 500px;
-    div{
-      width: 100px;
-      border: 1px solid red;
+@media(max-width: 1200px){
+    .react-tabs {
+      margin-left: 20px;
     }
+  }
+@media (max-width: 1024px) {
+  .panel-page {
+    margin-left: 20px;
   }
 }
-  .tab{
-    display: none;
-  }
-  .tab_new{
-    display: block;
-    padding: 10px 0;
-    &Tabs{
-      &TabList{
-        display: flex;
-        &Tab{
-          display: flex;
-        }
-      }
-    }
-  }
-
-  .react-tabs__tab-list {
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background: transparent;
-    justify-content: center;
-  }
-  .react-tabs__tab {
-    width: 230px;
-    height: 50px;
-  }
-  .react-tabs {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-
+@media (max-width: 992px) {
   .panel-page {
-    //display: none;
-    .glav-div{
-      display: flex;
-      flex-direction: column;
-    }
-    &__img{
-      position: relative;
-      display: flex;
-      background: transparent;
-      //margin-left: -270px;
-      &--div1{
-        display: flex;
-
-        &--h2{
-          display: flex;
-          flex-direction: column;
-        }
-      }
-
-    }
-
-  }
-  .panel-page {
-    h2{
-      display: flex;
-      flex-direction: column;
-      font-size: 25px;
-      color: white;
-      span{
-        margin-left: -2px;
-        padding: 67px 0 0 0;
-        font-size: 30px;
-      }
-    }
-    p{
-      position: absolute;
-      top: 60px;
-      font-size: 20px;
-      color: #E5E5E5;
-    }
-
-
-  }
-  .react-tabs {
-    flex-direction: column;
-    &__tab{
-
-    }
-  }
-  .panel-page {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-top: 10px;
+    margin-left: 0;
   }
   .menu {
     margin-top: 50px;
@@ -337,6 +185,7 @@
     display: none;
   }
 }
+@media (max-width: 390px) {
 
 
 
@@ -358,43 +207,34 @@
     padding-bottom: 780px;
   }
 }
-
-@media (max-width: 511px) {
-  .menu--bottom__right {
-    padding: 0 20px;
+@media (max-width: 768px) {
+  .menuMenu{
   }
-  .menu {
-    padding-bottom: 923px;
+
+}
+
+.containerSearch{
+  width: 70%;
+  margin: 0 auto;
+}
+#searchPage{
+  height: 100vh;
+  .search{
+    padding: 120px 0;
+    input{
+      padding: 10px 340px 10px 20px;
+      border-radius: 7px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      text-transform: capitalize;
+      outline: none;
+
+
+    }
   }
 }
 
-@media (max-width: 415px) {
-  .panel-page img {
-    width: 170px;
-    height: 100px;
-  }
-  .panel-page h2 span {
-    padding: 30px 0 0 0;
-  }
-  .menu--bottom__left {
-    padding: 0;
-  }
-  .menu--bottom__right {
-    padding: 0 10px;
-  }
-  .panel-page p {
-    top: 144px;
-  }
-  .menu {
-    padding-bottom: 659px;
-  }
-}
-
-
-@media (max-width: 350px) {
-  .menu {
-    padding-bottom: 640px;
-  }
-}
 
 
