@@ -68,7 +68,7 @@ const Menu = () => {
                 <TabPanel>
                     <div className="panel-page">
 
-                        <div style={{
+                        <div className="glav-diiv" style={{
                             display: "flex",
                         }}>
                             <div className='panel-page__img'>
@@ -91,7 +91,7 @@ const Menu = () => {
                         </div>
 
 
-                        <div style={{
+                        <div className="glav-diiv" style={{
                             display: "flex"
                         }}>
                             <div className='panel-page__img'>
@@ -113,33 +113,13 @@ const Menu = () => {
                         </div>
 
 
-                        <div style={{
-                            display: "flex"
-                        }}>
-                            <div className='panel-page__img'>
-                                <img src={pageImg5} alt=""/>
-                                <h2>Ice Cream
-                                    <span>$24</span>
-                                </h2>
-                                <p>soda,cream,milk,sugar</p>
-                            </div>
-
-                            <div className='panel-page__img'>
-                                <img src={pageImg6} alt=""/>
-                                <h2>Ice Cream
-                                    <span>$24</span>
-                                </h2>
-                                <p>soda,cream,milk,sugar</p>
-                            </div>
-
-                        </div>
                     </div>
 
                 </TabPanel>
 
                 <TabPanel>
                     <div className="panel-page">
-                        <div style={{
+                        <div className="glav-diiv" style={{
                             display: "flex"
                         }}>
                             <div className='panel-page__img'>
@@ -158,7 +138,7 @@ const Menu = () => {
                             </div>
                         </div>
 
-                        <div style={{
+                        <div className="glav-diiv" style={{
                             display: "flex"
                         }}>
                             <div className='panel-page__img'>
@@ -181,7 +161,7 @@ const Menu = () => {
 
                 <TabPanel>
                     <div className="panel-page">
-                        <div style={{
+                        <div className="glav-diiv" style={{
                             display: "flex"
                         }}>
                             <div className='panel-page__img'>
@@ -200,7 +180,7 @@ const Menu = () => {
                             </div>
                         </div>
 
-                        <div style={{
+                        <div className="glav-diiv" style={{
                             display: "flex"
                         }}>
                             <div className='panel-page__img'>
@@ -223,7 +203,7 @@ const Menu = () => {
 
                 <TabPanel>
                     <div className="panel-page">
-                        <div style={{
+                        <div className="glav-diiv" style={{
                             display: "flex"
                         }}>
                             <div className='panel-page__img'>
@@ -241,7 +221,7 @@ const Menu = () => {
                                 <p>soda,cream,milk,sugar</p>
                             </div>
                         </div>
-                        <div style={{
+                        <div className="glav-diiv" style={{
                             display: "flex"
                         }}>
                             <div className='panel-page__img'>
@@ -265,7 +245,7 @@ const Menu = () => {
                 <TabPanel>
                     <div className="panel-page">
 
-                        <div style={{
+                        <div className="glav-diiv"  style={{
                             display: "flex"
                         }}>
                             <div className='panel-page__img'>
@@ -279,6 +259,27 @@ const Menu = () => {
                             <div className='panel-page__img'>
                                 <img src={food} alt=""/>
                                 <h2>cuisine
+                                    <span>$24</span>
+                                </h2>
+                                <p>soda,cream,milk,sugar</p>
+                            </div>
+
+                        </div>
+
+                        <div className="glav-diiv" style={{
+                            display: "flex"
+                        }}>
+                            <div className='panel-page__img'>
+                                <img src={pageImg5} alt=""/>
+                                <h2>Ice Cream
+                                    <span>$24</span>
+                                </h2>
+                                <p>soda,cream,milk,sugar</p>
+                            </div>
+
+                            <div className='panel-page__img'>
+                                <img src={pageImg6} alt=""/>
+                                <h2>Ice Cream
                                     <span>$24</span>
                                 </h2>
                                 <p>soda,cream,milk,sugar</p>
