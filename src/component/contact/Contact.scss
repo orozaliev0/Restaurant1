@@ -109,3 +109,13 @@
     }
   }
 }
+@media (max-width: 576px) {
+  #contact .contact--text h1 {
+    line-height: 45px;
+    font-size: 30px;
+  }
+  #contact .contact--text__visit h2 {
+    font-size: 30px;
+  }
+
+}
