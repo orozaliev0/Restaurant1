@@ -139,9 +139,73 @@
   .panel-page {
     margin-left: 0;
   }
+  .menu {
+    margin-top: 50px;
+
+    &--bottom{
+      padding: 50px 0 0 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      &__left{
+        display: flex;
+        padding: 0 40px;
+        &--vectors{
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+        }
+        h3{
+          font-family: 'Shalimar', sans-serif;
+          font-size: 50px;
+          color: #FFFFFF;
+          font-weight: 100;
+          padding: 8px 30px;
+        }
+      }
+      &__right{
+        padding: 0 70px;
+        &--icon{
+          font-size: 30px;
+          color: white;
+        }
+      }
+    }
+
+
+  }
+  #footer{
+    display: none;
+  }
+
+  .react-tabs__tab--selected .dd {
+    display: none;
+  }
+  .react-tabs__tab .ttt {
+    display: none;
+  }
 }
 @media (max-width: 390px) {
 
+
+
+
+@media (max-width: 653px) {
+  .react-tabs__tab-list {
+    justify-content: center;
+  }
+  .panel-page__img {
+    flex-direction: column;
+  }
+  .panel-page__img--div1 {
+    flex-direction: column;
+  }
+  .panel-page p {
+    top: 200px;
+  }
+  .menu {
+    padding-bottom: 780px;
+  }
 }
 @media (max-width: 768px) {
   .menuMenu{
