@@ -295,8 +295,9 @@
     margin-bottom: -58px;
   }
   #main .main_block .react-tabs {
-    margin-left: 208px;
-    margin-bottom: -60px
+    margin-left: 0px;
+    margin-top: 124px;
+    margin-bottom: -100px;
   }
   .react-tabs {
     height: 520px;
@@ -312,7 +313,7 @@
 
 @media (max-width: 576px) {
   #main .main_block .react-tabs {
-    margin-left: 121px;
+    margin-left: 14px;
   }
   #main .main_block__btn button {
     margin-left: 169px;
@@ -344,9 +345,10 @@
   }
 
 }
-@media (max-width: 414px) {
+@media (max-width: 415px) {
   #main .main_block .react-tabs {
-    margin-left: 50px;
+    margin-left: 10px;
+    margin-bottom: -158px;
   }
 
 }
