@@ -51,8 +51,16 @@
 
 }
 @media (max-width: 360px) {
-
+  #contact .contact__maps iframe {
+    width: 80%;
+    height: 30vh;
+    margin: 10px 30px;
+  }
 }
 @media (max-width: 320px) {
-
+  #contact .contact__maps iframe {
+    width: 80%;
+    height: 30vh;
+    margin: 10px 25px;
+  }
 }
