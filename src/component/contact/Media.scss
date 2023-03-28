@@ -38,8 +38,12 @@
 @media (max-width: 450px) {
 
 }
-@media (max-width: 414px) {
-
+@media (max-width: 430px) {
+  #contact .contact__maps iframe {
+    width: 80%;
+    height: 30vh;
+    margin: 10px 35px;
+  }
 }
 @media (max-width: 400px) {
 
@@ -51,7 +55,11 @@
 
 }
 @media (max-width: 360px) {
-
+  #contact .contact__maps iframe {
+    width: 80%;
+    height: 30vh;
+    margin: 9px 30px;
+  }
 }
 @media (max-width: 320px) {
 
